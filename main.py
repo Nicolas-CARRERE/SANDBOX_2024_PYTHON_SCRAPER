@@ -33,6 +33,24 @@ class WebScraper:
             return None
 
     @staticmethod
+    def record_exists(db_conn, subdomain, name, value, text):
+        cursor = db_conn.cursor()
+        
+        query = """
+            SELECT EXISTS(
+                SELECT 1 FROM data
+                WHERE subdomain = %s
+                AND select_name = %s
+                AND option_value = %s
+                AND option_text = %s
+            )
+        """
+        
+        cursor.execute(query, (subdomain, name, value, text))
+        
+        return cursor.fetchone()[0]
+
+    @staticmethod
     def parse_html(url, html, db_conn):
         parsed_url = urlparse(url)
         subdomain = parsed_url.hostname.split('.')[0]
@@ -41,8 +59,9 @@ class WebScraper:
         for select in selects:
             options = select.find_all('option')
             for option in options:
-                WebScraper.save_to_db(db_conn, subdomain, select['name'], option['value'], option.text)
-                # print(subdomain + "Select value:", select['name'], " / Value:", option['value'], "Text:", option.text)
+                if not WebScraper.record_exists(db_conn, subdomain, select['name'], option['value'], option.text):
+                    WebScraper.save_to_db(db_conn, subdomain, select['name'], option['value'], option.text)
+                    # print(subdomain + "Select value:", select['name'], " / Value:", option['value'], "Text:", option.text)
 
     @staticmethod
     def save_to_db(db_conn, subdomain, select_name, option_value, option_text):
