@@ -33,12 +33,26 @@ class WebScraper:
             return None
 
     @staticmethod
+    def create_table(db_conn):
+        cursor = db_conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS filter (
+                subdomain text,
+                select_name text,
+                option_value text,
+                option_text text
+            )
+        """)
+        db_conn.commit()
+        print("Table 'filter' created successfully.")
+
+    @staticmethod
     def record_exists(db_conn, subdomain, name, value, text):
         cursor = db_conn.cursor()
         
         query = """
             SELECT EXISTS(
-                SELECT 1 FROM data
+                SELECT 1 FROM filter
                 WHERE subdomain = %s
                 AND select_name = %s
                 AND option_value = %s
@@ -68,7 +82,7 @@ class WebScraper:
         cursor = db_conn.cursor()
 
         cursor.execute("""
-            CREATE TABLE IF NOT EXISTS data (
+            CREATE TABLE IF NOT EXISTS filter (
                 subdomain text,
                 select_name text,
                 option_value text,
@@ -76,7 +90,7 @@ class WebScraper:
             )
         """)
 
-        cursor.execute("INSERT INTO data (subdomain, select_name, option_value, option_text) VALUES (%s, %s, %s, %s)",
+        cursor.execute("INSERT INTO filter (subdomain, select_name, option_value, option_text) VALUES (%s, %s, %s, %s)",
                     (subdomain, select_name, option_value, option_text))
         
         db_conn.commit()
@@ -91,6 +105,9 @@ if __name__ == "__main__":
     URL2 = os.getenv("URL2")
 
     db_conn = get_db_conn()
+
+    # Create the table first
+    WebScraper.create_table(db_conn)
 
     for url in [URL1, URL2]:
         html = scraper.get_html(url)
