@@ -1,2 +1,2 @@
 /.env
-/chromedriver-linux64/chromedriver
+**/chromedriver-linux64/chromedriver
