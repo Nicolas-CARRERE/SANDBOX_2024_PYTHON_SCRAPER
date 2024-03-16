@@ -58,8 +58,8 @@ class WebScraper:
             """
             CREATE TABLE IF NOT EXISTS criteria_value (
                 criteria_value_id SERIAL PRIMARY KEY,
-                value TEXT NOT NULL,
-                text TEXT NOT NULL
+                value TEXT NULL,
+                text TEXT NULL
             )
             """,
             """
@@ -123,6 +123,22 @@ class WebScraper:
             db_conn.commit()
         return result[0]
 
+    # This function parse_html is used to parse the html and save the filters to the database
+    @staticmethod
+    def parse_html(url, html, db_conn):
+        parsed_url = urlparse(url)
+        subdomain = parsed_url.hostname.split('.')[0]
+        soup = BeautifulSoup(html, 'html.parser')
+        selects = soup.find_all('select')
+        for select in selects:
+            options = select.find_all('option')
+            for option in options:
+                subdomain_id = WebScraper.get_id(db_conn, "subdomain", "name", subdomain)
+                criteria_id = WebScraper.get_id(db_conn, "criteria", "name", select['name'])
+                criteria_value_id = WebScraper.get_id(db_conn, "criteria_value", "value", option['value'], option.text)
+                if not WebScraper.record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
+                    WebScraper.save_to_db(db_conn, subdomain, select['name'], option['value'], option.text)
+
     # This function save_to_db is used to save the record to the database
     @staticmethod
     def save_to_db(db_conn, subdomain, criteria, criteria_value, option_text):
@@ -141,22 +157,6 @@ class WebScraper:
                 cursor.execute("INSERT INTO filter (subdomain_id, criteria_id, criteria_value_id) VALUES (%s, %s, %s)",
                             (subdomain_id, criteria_id, criteria_value_id))
                 db_conn.commit()
-
-    # This function parse_html is used to parse the html and save the filters to the database
-    @staticmethod
-    def parse_html(url, html, db_conn):
-        parsed_url = urlparse(url)
-        subdomain = parsed_url.hostname.split('.')[0]
-        soup = BeautifulSoup(html, 'html.parser')
-        selects = soup.find_all('select')
-        for select in selects:
-            options = select.find_all('option')
-            for option in options:
-                subdomain_id = WebScraper.get_id(db_conn, "subdomain", "name", subdomain)
-                criteria_id = WebScraper.get_id(db_conn, "criteria", "name", select['name'])
-                criteria_value_id = WebScraper.get_id(db_conn, "criteria_value", "value", option['value'], option.text)
-                if not WebScraper.record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
-                    WebScraper.save_to_db(db_conn, subdomain, select['name'], option['value'], option.text)
 
 # Here, we call the WebScraper class            
 if __name__ == "__main__":
