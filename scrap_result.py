@@ -1,93 +1,59 @@
-# create a script based on scrap_filter.py
-# to iterate on the differents filter to get the results and store them in DB
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os
-from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from time import sleep
-from bs4 import BeautifulSoup
-from db_conn import get_db_conn
-from urllib.parse import urlparse
+import time
+import random
+import asyncio
+from bs4 import BeautifulSoup as bs4
+import requests
+from dotenv import load_dotenv
+from resources.conf import Conf
 
-# This class is used to scrape the website and the filters witch are available
-class DataWebScraper:
-    # This function __init__ is used to initialize the class
-    def __init__(self, driver_path, browser_options):
-        self.driver = self.setup_driver(driver_path, browser_options)
+import os
+import time
+import random
+import asyncio
+from bs4 import BeautifulSoup as bs4
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+from dotenv import load_dotenv
+from resources.conf import Conf
 
-    # This function setup_driver is used to setup the driver of the browser
-    @staticmethod
-    def setup_driver(driver_path, browser_options):
-        service = Service(driver_path)
-        service.start()
-        return webdriver.Chrome(service=service, options=browser_options)
+class ScrapData:
+    def __init__(self, championship):
+        self.conf = Conf()
+        url = self.conf.championship_list.get(championship)
+        if url:
+            headers = {'User-Agent': 'Mozilla/5.0'}
+            session = self._create_session()
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(self.fetch_data(session, url, headers))
+        else:
+            print("Championship URL not found in the configuration.")
 
-    # This function quit is used to quit the driver of the browser
-    def quit(self):
-        self.driver.quit()
+    # This function fetch_data is used to fetch the data from the website
+    async def fetch_data(self, session, url, headers):
+        page = session.get(url, headers=headers, allow_redirects=True)
+        if page.status_code == 200:
+            await asyncio.sleep(random.randint(3, 5))
+            page = session.get(url, headers=headers)
+            if page.status_code == 200:
+                html = bs4(page.text, 'html.parser')
+                selects = html.find_all('select')
+            else:
+                print("Failed to retrieve the page after delay. Status code:", page.status_code)
+        else:
+            print("Failed to retrieve the initial page. Status code:", page.status_code)
 
-    # This function get_html is used to get the html of the website
-    # It is used to get the html of the website and the filters witch are available
-    # By calling get twice we ensure that the page is fully loaded before we start scraping
-    def get_html(self, url):
-        try:
-            self.driver.get(url)
-            sleep(2)
-            self.driver.get(url)
-            sleep(2)
-            return self.driver.page_source
-        except Exception as e:
-            print("An error occurred while getting HTML:", str(e))
-            return None
+    # This function create_session is used to create a session for the requests library.
+    def _create_session(self):
+        session = requests.Session()
+        retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+        session.mount('http://', HTTPAdapter(max_retries=retries))
+        session.mount('https://', HTTPAdapter(max_retries=retries))
+        return session
 
-    # This function record_exists is used to check if the record exists in the database
-    @staticmethod
-    def record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
-        cursor = db_conn.cursor()
-        query = """
-            SELECT EXISTS(
-                SELECT 1 FROM data
-                WHERE scraped_url = %s
-                AND data_html = %s
-                AND updated_at = %s
-            )
-        """
-        cursor.execute(query, (subdomain_id, criteria_id, criteria_value_id))
-        return cursor.fetchone()[0]
-
-    # This function parse_html is used to parse the HTML and save the filters to the database
-    @staticmethod
-    def parse_html(url, html, db_conn):
-        soup = BeautifulSoup(html, 'html.parser')
-        tds = soup.find_all('td')
-        
-        for td in tds:
-            if len(td.text.strip()) > 4:
-                print(td.text)
-            
-            lis = td.find_all('li')
-            for li in lis:
-                print(li.text.strip())                    
-                # DataWebScraper.save_to_db(db_conn, subdomain, select['name'], option['value'], option.text)   
-
-    # This function save_to_db is used to save the record to the database
-    # @staticmethod
-    # def save_to_db(db_conn, subdomain, criteria, criteria_value, option_text):
-    #     cursor = db_conn.cursor()
-
-    #     scraped_url = 
-    #     data_html = DataWebScraper.get_id(db_conn, "criteria", "name", criteria)
-    #     created_at = datetime.now()
-    #     updated_at = datetime.now()
-
-    #     cursor.execute("SELECT * FROM criteria_value WHERE criteria_value_id = %s", (criteria_value_id,))
-    #     result = cursor.fetchone()
-    #     if result is None:
-    #         raise ValueError(f"criteria_value_id {criteria_value_id} does not exist in criteria_value table")
-    #     else:
-    #         if not DataWebScraper.record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
-    #             cursor.execute("INSERT INTO filter (subdomain_id, criteria_id, criteria_value_id) VALUES (%s, %s, %s)",
-    #                         (subdomain_id, criteria_id, criteria_value_id))
-    #             db_conn.commit()
-
+if __name__ == "__main__":
+    ScrapData('basque_union')
