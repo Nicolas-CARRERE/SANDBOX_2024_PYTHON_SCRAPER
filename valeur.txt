@@ -1,0 +1,6906 @@
+<html>
+ <body>
+  <div id="bouton_menu">
+  </div>
+  <div align="center" class="resultats" id="appli">
+   <h1>
+    RESULTATS : SAISON 2024
+    <br/>
+    <br/>
+    <span class="small">
+     <b>
+      Aujourd'hui :
+     </b>
+     Mercredi 20 Mars 2024, 21h28
+    </span>
+   </h1>
+   <br/>
+   <table class="mBloc">
+    <tr>
+     <td align="right" colspan="7">
+      <a href="csv.php">
+       Télécharger
+       <img src="./images/save.png" width="24">
+        <a>
+         <a href="https://www.facebook.com/sharer/sharer.php?u=%3FInSel%3D%26InCompet%3D20240102%26InSpec%3D2%26InVille%3D%26InClub%3D%26InDate%3D%26InDatef%3D%26InCat%3D8%26InPhase%3D0%26InVoir%3DVoir%2Bles%2Br%25C3%25A9sultats" target="_blank">
+          <img align="right" src="images/fb.png"/>
+         </a>
+        </a>
+       </img>
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td colspan="7">
+      Trinquet/Main Nue Groupe B
+      <span style="padding-left:1em;">
+       M14 - Benjamins - Kimuak
+      </span>
+      <span style="padding-left:1em;">
+       GROUPE A			    Poule phase 1
+      </span>
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      Poules 1
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49053&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 1
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102351) DIRASSE Hodei
+       </li>
+       <li>
+        (102209) AROTCARENA Ioritz
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (109786) IDIART Enzo
+       </li>
+       <li>
+        (106624) POUCHULU Clément
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/38
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49054&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 2
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (098559) ETCHELET Thomas
+       </li>
+       <li>
+        (096431) SALLAGOITY Ximun
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100709) CASSAING Patxi
+       </li>
+       <li>
+        (100806) LARRONDO Jules
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      22/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49055&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 3
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101865) ELIZONDO Jon
+       </li>
+       <li>
+        (104772) ETCHEVERRY Mattin
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107577) HASQUET BEGUE Baptiste
+       </li>
+       <li>
+        (102898) GALANT Jon
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      15/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49056&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 4
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100709) CASSAING Patxi
+       </li>
+       <li>
+        (100806) LARRONDO Jules
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102351) DIRASSE Hodei
+       </li>
+       <li>
+        (102209) AROTCARENA Ioritz
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/09
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49057&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 5
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107577) HASQUET BEGUE Baptiste
+       </li>
+       <li>
+        (102898) GALANT Jon
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (098559) ETCHELET Thomas
+       </li>
+       <li>
+        (096431) SALLAGOITY Ximun
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/13
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49058&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 6
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (109786) IDIART Enzo
+       </li>
+       <li>
+        (106624) POUCHULU Clément
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101865) ELIZONDO Jon
+       </li>
+       <li>
+        (104772) ETCHEVERRY Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      22/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49059&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 7
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102351) DIRASSE Hodei
+       </li>
+       <li>
+        (102209) AROTCARENA Ioritz
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107577) HASQUET BEGUE Baptiste
+       </li>
+       <li>
+        (102898) GALANT Jon
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      07/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49060&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 8
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (098559) ETCHELET Thomas
+       </li>
+       <li>
+        (096431) SALLAGOITY Ximun
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101865) ELIZONDO Jon
+       </li>
+       <li>
+        (104772) ETCHEVERRY Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      27/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49061&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				 9
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100709) CASSAING Patxi
+       </li>
+       <li>
+        (100806) LARRONDO Jules
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (109786) IDIART Enzo
+       </li>
+       <li>
+        (106624) POUCHULU Clément
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/11
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49062&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				10
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101865) ELIZONDO Jon
+       </li>
+       <li>
+        (104772) ETCHEVERRY Mattin
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102351) DIRASSE Hodei
+       </li>
+       <li>
+        (102209) AROTCARENA Ioritz
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/26
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49063&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				11
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107577) HASQUET BEGUE Baptiste
+       </li>
+       <li>
+        (102898) GALANT Jon
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100709) CASSAING Patxi
+       </li>
+       <li>
+        (100806) LARRONDO Jules
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/23
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49064&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				12
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (098559) ETCHELET Thomas
+       </li>
+       <li>
+        (096431) SALLAGOITY Ximun
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (109786) IDIART Enzo
+       </li>
+       <li>
+        (106624) POUCHULU Clément
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/21
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49065&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				13
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102351) DIRASSE Hodei
+       </li>
+       <li>
+        (102209) AROTCARENA Ioritz
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (098559) ETCHELET Thomas
+       </li>
+       <li>
+        (096431) SALLAGOITY Ximun
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/36
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49066&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				14
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100709) CASSAING Patxi
+       </li>
+       <li>
+        (100806) LARRONDO Jules
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101865) ELIZONDO Jon
+       </li>
+       <li>
+        (104772) ETCHEVERRY Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/31
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49067&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				15
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (109786) IDIART Enzo
+       </li>
+       <li>
+        (106624) POUCHULU Clément
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107577) HASQUET BEGUE Baptiste
+       </li>
+       <li>
+        (102898) GALANT Jon
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      18/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      Poules 2
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49068&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				16
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102222) GARRA Enaut
+       </li>
+       <li>
+        (102353) LAFITTE Ttale
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (106626) IRIARTE Olhain
+       </li>
+       <li>
+        (106617) OILLARBURU Patxi (S)
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      07/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49069&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				17
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100333) AMESTOY Pierre
+       </li>
+       <li>
+        (098561) CORNU IRIBARNE Peio
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102035) BEHOTEGUY Allande
+       </li>
+       <li>
+        (102702) DENDALETCHE Eneko
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/20
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49070&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				18
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107496) PALOMES Iban
+       </li>
+       <li>
+        (107475) CHAMALBIDE Mattin
+       </li>
+      </span>
+     </td>
+     <td class="forfait" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103030) URRIZA Inaki
+       </li>
+       <li>
+        (103886) HARISTOY Inaki
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      /FG
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49071&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				19
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102035) BEHOTEGUY Allande
+       </li>
+       <li>
+        (102702) DENDALETCHE Eneko
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102222) GARRA Enaut
+       </li>
+       <li>
+        (102353) LAFITTE Ttale
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/26
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49072&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				20
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="forfait" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103030) URRIZA Inaki
+       </li>
+       <li>
+        (103886) HARISTOY Inaki
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100333) AMESTOY Pierre
+       </li>
+       <li>
+        (098561) CORNU IRIBARNE Peio
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      FG/
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49073&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				21
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (106626) IRIARTE Olhain
+       </li>
+       <li>
+        (106617) OILLARBURU Patxi (S)
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107496) PALOMES Iban
+       </li>
+       <li>
+        (107475) CHAMALBIDE Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      30/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49074&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				22
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102222) GARRA Enaut
+       </li>
+       <li>
+        (102353) LAFITTE Ttale
+       </li>
+      </span>
+     </td>
+     <td class="forfait" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103030) URRIZA Inaki
+       </li>
+       <li>
+        (103886) HARISTOY Inaki
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      /FG
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49075&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				23
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100333) AMESTOY Pierre
+       </li>
+       <li>
+        (098561) CORNU IRIBARNE Peio
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107496) PALOMES Iban
+       </li>
+       <li>
+        (107475) CHAMALBIDE Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/15
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49076&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				24
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102035) BEHOTEGUY Allande
+       </li>
+       <li>
+        (102702) DENDALETCHE Eneko
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (106626) IRIARTE Olhain
+       </li>
+       <li>
+        (106617) OILLARBURU Patxi (S)
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      39/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49077&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				25
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107496) PALOMES Iban
+       </li>
+       <li>
+        (107475) CHAMALBIDE Mattin
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102222) GARRA Enaut
+       </li>
+       <li>
+        (102353) LAFITTE Ttale
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/26
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49078&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				26
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="forfait" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103030) URRIZA Inaki
+       </li>
+       <li>
+        (103886) HARISTOY Inaki
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102035) BEHOTEGUY Allande
+       </li>
+       <li>
+        (102702) DENDALETCHE Eneko
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      FG/
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49079&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				27
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100333) AMESTOY Pierre
+       </li>
+       <li>
+        (098561) CORNU IRIBARNE Peio
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (106626) IRIARTE Olhain
+       </li>
+       <li>
+        (106617) OILLARBURU Patxi (S)
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/20
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49080&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				28
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102222) GARRA Enaut
+       </li>
+       <li>
+        (102353) LAFITTE Ttale
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100333) AMESTOY Pierre
+       </li>
+       <li>
+        (098561) CORNU IRIBARNE Peio
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      04/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49081&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				29
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102035) BEHOTEGUY Allande
+       </li>
+       <li>
+        (102702) DENDALETCHE Eneko
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107496) PALOMES Iban
+       </li>
+       <li>
+        (107475) CHAMALBIDE Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/20
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49082&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				30
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (106626) IRIARTE Olhain
+       </li>
+       <li>
+        (106617) OILLARBURU Patxi (S)
+       </li>
+      </span>
+     </td>
+     <td class="forfait" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103030) URRIZA Inaki
+       </li>
+       <li>
+        (103886) HARISTOY Inaki
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      /FG
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      Poules 3
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49083&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				31
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (099168) LABROSSE OTHARAN Gabriel
+       </li>
+       <li>
+        (104559) LARRE Enzo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      UHALDEAN
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102729) OYHENART Yon
+       </li>
+       <li>
+        (108917) CASTAIGNAU ROMEO
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/26
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49084&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				32
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      U.S.S.P. AMIKUZE
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105937) IRIGOIN Jon
+       </li>
+       <li>
+        (102878) MASSONDO Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107486) IHIDOY Andoni
+       </li>
+       <li>
+        (106924) ENERIZ ARRAMBIDE Xuban
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/12
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49085&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				33
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107454) HASQUET BEGUE Antoni
+       </li>
+       <li>
+        (099381) AGUINAGA-ORONOS Inaki
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (109782) LOURME Iban (S)
+       </li>
+       <li>
+        (106902) IDIART Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/16
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49086&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				34
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107486) IHIDOY Andoni
+       </li>
+       <li>
+        (106924) ENERIZ ARRAMBIDE Xuban
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (099168) LABROSSE OTHARAN Gabriel
+       </li>
+       <li>
+        (104559) LARRE Enzo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      09/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49087&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				35
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (109782) LOURME Iban (S)
+       </li>
+       <li>
+        (106902) IDIART Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      U.S.S.P. AMIKUZE
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105937) IRIGOIN Jon
+       </li>
+       <li>
+        (102878) MASSONDO Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/36
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49088&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				36
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      UHALDEAN
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102729) OYHENART Yon
+       </li>
+       <li>
+        (108917) CASTAIGNAU ROMEO
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107454) HASQUET BEGUE Antoni
+       </li>
+       <li>
+        (099381) AGUINAGA-ORONOS Inaki
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/30
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49089&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				37
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (099168) LABROSSE OTHARAN Gabriel
+       </li>
+       <li>
+        (104559) LARRE Enzo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (109782) LOURME Iban (S)
+       </li>
+       <li>
+        (106902) IDIART Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/07
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49090&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				38
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      U.S.S.P. AMIKUZE
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105937) IRIGOIN Jon
+       </li>
+       <li>
+        (102878) MASSONDO Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107454) HASQUET BEGUE Antoni
+       </li>
+       <li>
+        (099381) AGUINAGA-ORONOS Inaki
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      24/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49091&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				39
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107486) IHIDOY Andoni
+       </li>
+       <li>
+        (106924) ENERIZ ARRAMBIDE Xuban
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      UHALDEAN
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102729) OYHENART Yon
+       </li>
+       <li>
+        (108917) CASTAIGNAU ROMEO
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      13/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49092&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				40
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107454) HASQUET BEGUE Antoni
+       </li>
+       <li>
+        (099381) AGUINAGA-ORONOS Inaki
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (099168) LABROSSE OTHARAN Gabriel
+       </li>
+       <li>
+        (104559) LARRE Enzo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      31/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49093&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				41
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (109782) LOURME Iban (S)
+       </li>
+       <li>
+        (106902) IDIART Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107486) IHIDOY Andoni
+       </li>
+       <li>
+        (106924) ENERIZ ARRAMBIDE Xuban
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/34
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49094&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				42
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      U.S.S.P. AMIKUZE
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105937) IRIGOIN Jon
+       </li>
+       <li>
+        (102878) MASSONDO Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      UHALDEAN
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102729) OYHENART Yon
+       </li>
+       <li>
+        (108917) CASTAIGNAU ROMEO
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      33/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49095&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				43
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (099168) LABROSSE OTHARAN Gabriel
+       </li>
+       <li>
+        (104559) LARRE Enzo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      U.S.S.P. AMIKUZE
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105937) IRIGOIN Jon
+       </li>
+       <li>
+        (102878) MASSONDO Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/31
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49096&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				44
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107486) IHIDOY Andoni
+       </li>
+       <li>
+        (106924) ENERIZ ARRAMBIDE Xuban
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107454) HASQUET BEGUE Antoni
+       </li>
+       <li>
+        (099381) AGUINAGA-ORONOS Inaki
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      11/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49097&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				45
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      UHALDEAN
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102729) OYHENART Yon
+       </li>
+       <li>
+        (108917) CASTAIGNAU ROMEO
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (109782) LOURME Iban (S)
+       </li>
+       <li>
+        (106902) IDIART Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/14
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      Poules 4
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49098&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				46
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (101365) RECALDE Luken
+       </li>
+       <li>
+        (101364) DAMESTOY-OXARANGO Andoni
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101561) CORRET Maju
+       </li>
+       <li>
+        (105413) DOYHENARD-HIRIGOYEN Unai
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      25/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49099&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				47
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (108166) RINA Mateo
+       </li>
+       <li>
+        (101340) CANELLAS-LALANNE Julien
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KANBOARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098153) MAISTERRENA Ellande
+       </li>
+       <li>
+        (101057) IRASSART Estebe
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      30/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49100&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				48
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      SARAKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105266) BERASATEGUY Enaut
+       </li>
+       <li>
+        (105267) IDOATE Xan
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      LAU HERRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (108079) DURIVEAU MACAZAGA Lilian
+       </li>
+       <li>
+        (107043) FRICAN Imanol
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/23
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49101&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				49
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KANBOARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098153) MAISTERRENA Ellande
+       </li>
+       <li>
+        (101057) IRASSART Estebe
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (101365) RECALDE Luken
+       </li>
+       <li>
+        (101364) DAMESTOY-OXARANGO Andoni
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/26
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49102&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				50
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      LAU HERRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (108079) DURIVEAU MACAZAGA Lilian
+       </li>
+       <li>
+        (107043) FRICAN Imanol
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (108166) RINA Mateo
+       </li>
+       <li>
+        (101340) CANELLAS-LALANNE Julien
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/28
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49103&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				51
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101561) CORRET Maju
+       </li>
+       <li>
+        (105413) DOYHENARD-HIRIGOYEN Unai
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      SARAKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105266) BERASATEGUY Enaut
+       </li>
+       <li>
+        (105267) IDOATE Xan
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      19/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49104&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				52
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (101365) RECALDE Luken
+       </li>
+       <li>
+        (101364) DAMESTOY-OXARANGO Andoni
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      LAU HERRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (108079) DURIVEAU MACAZAGA Lilian
+       </li>
+       <li>
+        (107043) FRICAN Imanol
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/27
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49105&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				53
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (108166) RINA Mateo
+       </li>
+       <li>
+        (101340) CANELLAS-LALANNE Julien
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      SARAKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105266) BERASATEGUY Enaut
+       </li>
+       <li>
+        (105267) IDOATE Xan
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      25/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49106&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				54
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KANBOARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098153) MAISTERRENA Ellande
+       </li>
+       <li>
+        (101057) IRASSART Estebe
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101561) CORRET Maju
+       </li>
+       <li>
+        (105413) DOYHENARD-HIRIGOYEN Unai
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/35
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49107&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				55
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      SARAKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105266) BERASATEGUY Enaut
+       </li>
+       <li>
+        (105267) IDOATE Xan
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (101365) RECALDE Luken
+       </li>
+       <li>
+        (101364) DAMESTOY-OXARANGO Andoni
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/13
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49108&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				56
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      LAU HERRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (108079) DURIVEAU MACAZAGA Lilian
+       </li>
+       <li>
+        (107043) FRICAN Imanol
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KANBOARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098153) MAISTERRENA Ellande
+       </li>
+       <li>
+        (101057) IRASSART Estebe
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      31/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49109&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				57
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (108166) RINA Mateo
+       </li>
+       <li>
+        (101340) CANELLAS-LALANNE Julien
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101561) CORRET Maju
+       </li>
+       <li>
+        (105413) DOYHENARD-HIRIGOYEN Unai
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/35
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49110&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				58
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (101365) RECALDE Luken
+       </li>
+       <li>
+        (101364) DAMESTOY-OXARANGO Andoni
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (108166) RINA Mateo
+       </li>
+       <li>
+        (101340) CANELLAS-LALANNE Julien
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/28
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49111&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				59
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      KANBOARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098153) MAISTERRENA Ellande
+       </li>
+       <li>
+        (101057) IRASSART Estebe
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      SARAKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105266) BERASATEGUY Enaut
+       </li>
+       <li>
+        (105267) IDOATE Xan
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      29/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49112&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				60
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101561) CORRET Maju
+       </li>
+       <li>
+        (105413) DOYHENARD-HIRIGOYEN Unai
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      LAU HERRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (108079) DURIVEAU MACAZAGA Lilian
+       </li>
+       <li>
+        (107043) FRICAN Imanol
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/37
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      Poules 5
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49113&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				61
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (104658) RETEGUI Andoni
+       </li>
+       <li>
+        (104657) OURQUIA Iban
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102260) SOARES Nathan
+       </li>
+       <li>
+        (108343) IHITZ Xan
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/29
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49114&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				62
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102113) HARAMBURU Antton
+       </li>
+       <li>
+        (098515) PERES Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105118) ETCHEPARE Gorka
+       </li>
+       <li>
+        (105335) DIGONNET OURTAU Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      19/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49115&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				63
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (098811) ROBERT DE BEAUCHAMP Xabi
+       </li>
+       <li>
+        (109641) CATEL Jon
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (103490) ZUGASTI Pierre
+       </li>
+       <li>
+        (101316) VIAL Nino
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      37/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49116&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				64
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105118) ETCHEPARE Gorka
+       </li>
+       <li>
+        (105335) DIGONNET OURTAU Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (104658) RETEGUI Andoni
+       </li>
+       <li>
+        (104657) OURQUIA Iban
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/19
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49117&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				65
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (103490) ZUGASTI Pierre
+       </li>
+       <li>
+        (101316) VIAL Nino
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102113) HARAMBURU Antton
+       </li>
+       <li>
+        (098515) PERES Matteo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      23/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49118&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				66
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102260) SOARES Nathan
+       </li>
+       <li>
+        (108343) IHITZ Xan
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (098811) ROBERT DE BEAUCHAMP Xabi
+       </li>
+       <li>
+        (109641) CATEL Jon
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/29
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49119&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				67
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (104658) RETEGUI Andoni
+       </li>
+       <li>
+        (104657) OURQUIA Iban
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (103490) ZUGASTI Pierre
+       </li>
+       <li>
+        (101316) VIAL Nino
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/17
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49120&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				68
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102113) HARAMBURU Antton
+       </li>
+       <li>
+        (098515) PERES Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (098811) ROBERT DE BEAUCHAMP Xabi
+       </li>
+       <li>
+        (109641) CATEL Jon
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/17
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49121&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				69
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105118) ETCHEPARE Gorka
+       </li>
+       <li>
+        (105335) DIGONNET OURTAU Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102260) SOARES Nathan
+       </li>
+       <li>
+        (108343) IHITZ Xan
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/18
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49122&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				70
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (098811) ROBERT DE BEAUCHAMP Xabi
+       </li>
+       <li>
+        (109641) CATEL Jon
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (104658) RETEGUI Andoni
+       </li>
+       <li>
+        (104657) OURQUIA Iban
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      27/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49123&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				71
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (103490) ZUGASTI Pierre
+       </li>
+       <li>
+        (101316) VIAL Nino
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105118) ETCHEPARE Gorka
+       </li>
+       <li>
+        (105335) DIGONNET OURTAU Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      13/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49124&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				72
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102113) HARAMBURU Antton
+       </li>
+       <li>
+        (098515) PERES Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102260) SOARES Nathan
+       </li>
+       <li>
+        (108343) IHITZ Xan
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/14
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49125&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				73
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (104658) RETEGUI Andoni
+       </li>
+       <li>
+        (104657) OURQUIA Iban
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102113) HARAMBURU Antton
+       </li>
+       <li>
+        (098515) PERES Matteo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      31/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49126&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				74
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105118) ETCHEPARE Gorka
+       </li>
+       <li>
+        (105335) DIGONNET OURTAU Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (098811) ROBERT DE BEAUCHAMP Xabi
+       </li>
+       <li>
+        (109641) CATEL Jon
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/09
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49127&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				75
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102260) SOARES Nathan
+       </li>
+       <li>
+        (108343) IHITZ Xan
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (103490) ZUGASTI Pierre
+       </li>
+       <li>
+        (101316) VIAL Nino
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      34/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      Poules 6
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49128&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				76
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (105556) POCORENA Peio
+       </li>
+       <li>
+        (104659) ETCHEVERS Raphael
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103000) GAINZA Baptiste
+       </li>
+       <li>
+        (102263) ETCHEVERRY Louis
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      18/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49129&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				77
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100610) BARRENECHE ASTIGARRAGA Iban
+       </li>
+       <li>
+        (102118) CARRICABURU Mattin
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104371) PIERRESTEGUY Iban
+       </li>
+       <li>
+        (107415) JOLESSE Andoni
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/14
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49130&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				78
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104545) HIRIGOYEN Mattin
+       </li>
+       <li>
+        (108021) HARRIET Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098837) GALLO Aimar
+       </li>
+       <li>
+        (103453) CALVO-RODRIGUEZ Urko
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      18/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49131&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				79
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104371) PIERRESTEGUY Iban
+       </li>
+       <li>
+        (107415) JOLESSE Andoni
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (105556) POCORENA Peio
+       </li>
+       <li>
+        (104659) ETCHEVERS Raphael
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/00
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49132&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				80
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098837) GALLO Aimar
+       </li>
+       <li>
+        (103453) CALVO-RODRIGUEZ Urko
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100610) BARRENECHE ASTIGARRAGA Iban
+       </li>
+       <li>
+        (102118) CARRICABURU Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      38/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49133&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				81
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103000) GAINZA Baptiste
+       </li>
+       <li>
+        (102263) ETCHEVERRY Louis
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104545) HIRIGOYEN Mattin
+       </li>
+       <li>
+        (108021) HARRIET Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/18
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49134&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				82
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (105556) POCORENA Peio
+       </li>
+       <li>
+        (104659) ETCHEVERS Raphael
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098837) GALLO Aimar
+       </li>
+       <li>
+        (103453) CALVO-RODRIGUEZ Urko
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      20/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49135&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				83
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100610) BARRENECHE ASTIGARRAGA Iban
+       </li>
+       <li>
+        (102118) CARRICABURU Mattin
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104545) HIRIGOYEN Mattin
+       </li>
+       <li>
+        (108021) HARRIET Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/18
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49136&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				84
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104371) PIERRESTEGUY Iban
+       </li>
+       <li>
+        (107415) JOLESSE Andoni
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103000) GAINZA Baptiste
+       </li>
+       <li>
+        (102263) ETCHEVERRY Louis
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      24/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49137&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				85
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104545) HIRIGOYEN Mattin
+       </li>
+       <li>
+        (108021) HARRIET Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (105556) POCORENA Peio
+       </li>
+       <li>
+        (104659) ETCHEVERS Raphael
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/18
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49138&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				86
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098837) GALLO Aimar
+       </li>
+       <li>
+        (103453) CALVO-RODRIGUEZ Urko
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104371) PIERRESTEGUY Iban
+       </li>
+       <li>
+        (107415) JOLESSE Andoni
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/27
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49139&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				87
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100610) BARRENECHE ASTIGARRAGA Iban
+       </li>
+       <li>
+        (102118) CARRICABURU Mattin
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103000) GAINZA Baptiste
+       </li>
+       <li>
+        (102263) ETCHEVERRY Louis
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/24
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49140&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				88
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (105556) POCORENA Peio
+       </li>
+       <li>
+        (104659) ETCHEVERS Raphael
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100610) BARRENECHE ASTIGARRAGA Iban
+       </li>
+       <li>
+        (102118) CARRICABURU Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      19/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49141&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				89
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104371) PIERRESTEGUY Iban
+       </li>
+       <li>
+        (107415) JOLESSE Andoni
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104545) HIRIGOYEN Mattin
+       </li>
+       <li>
+        (108021) HARRIET Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/16
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49142&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				90
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103000) GAINZA Baptiste
+       </li>
+       <li>
+        (102263) ETCHEVERRY Louis
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098837) GALLO Aimar
+       </li>
+       <li>
+        (103453) CALVO-RODRIGUEZ Urko
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      22/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      Poules 7
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49143&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				91
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (101216) DUHART Allande
+       </li>
+       <li>
+        (104201) KOPUT-IGUINIZ Odei
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (100666) SORHUET Xan
+       </li>
+       <li>
+        (104486) SOULE Egoitz
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      25/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49144&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				92
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101755) LOUBERRY Pierre
+       </li>
+       <li>
+        (101341) GARAT Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (110148) DIRAND Sandro
+       </li>
+       <li>
+        (101898) ITURRIA Enzo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/16
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49145&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				93
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="forfait" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102102) LAURENCENA Julen (S)
+       </li>
+       <li>
+        (102116) LARREBOURE BONNET Odei (S)
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102015) CURUTCHET ETCHEPARE Julen
+       </li>
+       <li>
+        (104373) DESGRANS Allande
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      FG/
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49146&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				94
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (110148) DIRAND Sandro
+       </li>
+       <li>
+        (101898) ITURRIA Enzo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (101216) DUHART Allande
+       </li>
+       <li>
+        (104201) KOPUT-IGUINIZ Odei
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/30
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49147&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				95
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102015) CURUTCHET ETCHEPARE Julen
+       </li>
+       <li>
+        (104373) DESGRANS Allande
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101755) LOUBERRY Pierre
+       </li>
+       <li>
+        (101341) GARAT Matteo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      08/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49148&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				96
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (100666) SORHUET Xan
+       </li>
+       <li>
+        (104486) SOULE Egoitz
+       </li>
+      </span>
+     </td>
+     <td class="forfait" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102102) LAURENCENA Julen (S)
+       </li>
+       <li>
+        (102116) LARREBOURE BONNET Odei (S)
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      /FG
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49149&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				97
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (101216) DUHART Allande
+       </li>
+       <li>
+        (104201) KOPUT-IGUINIZ Odei
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102015) CURUTCHET ETCHEPARE Julen
+       </li>
+       <li>
+        (104373) DESGRANS Allande
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/31
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49150&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				98
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101755) LOUBERRY Pierre
+       </li>
+       <li>
+        (101341) GARAT Matteo
+       </li>
+      </span>
+     </td>
+     <td class="forfait" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102102) LAURENCENA Julen (S)
+       </li>
+       <li>
+        (102116) LARREBOURE BONNET Odei (S)
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      /FG
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49151&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				99
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (110148) DIRAND Sandro
+       </li>
+       <li>
+        (101898) ITURRIA Enzo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (100666) SORHUET Xan
+       </li>
+       <li>
+        (104486) SOULE Egoitz
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      20/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49152&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				100
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="forfait" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102102) LAURENCENA Julen (S)
+       </li>
+       <li>
+        (102116) LARREBOURE BONNET Odei (S)
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (101216) DUHART Allande
+       </li>
+       <li>
+        (104201) KOPUT-IGUINIZ Odei
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      FG/
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49153&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				101
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102015) CURUTCHET ETCHEPARE Julen
+       </li>
+       <li>
+        (104373) DESGRANS Allande
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (110148) DIRAND Sandro
+       </li>
+       <li>
+        (101898) ITURRIA Enzo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      39/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49154&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				102
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101755) LOUBERRY Pierre
+       </li>
+       <li>
+        (101341) GARAT Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (100666) SORHUET Xan
+       </li>
+       <li>
+        (104486) SOULE Egoitz
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/38
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49155&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				103
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (101216) DUHART Allande
+       </li>
+       <li>
+        (104201) KOPUT-IGUINIZ Odei
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101755) LOUBERRY Pierre
+       </li>
+       <li>
+        (101341) GARAT Matteo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/32
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49156&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				104
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (110148) DIRAND Sandro
+       </li>
+       <li>
+        (101898) ITURRIA Enzo
+       </li>
+      </span>
+     </td>
+     <td class="forfait" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102102) LAURENCENA Julen (S)
+       </li>
+       <li>
+        (102116) LARREBOURE BONNET Odei (S)
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+      /FG
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49157&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				105
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (100666) SORHUET Xan
+       </li>
+       <li>
+        (104486) SOULE Egoitz
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (102015) CURUTCHET ETCHEPARE Julen
+       </li>
+       <li>
+        (104373) DESGRANS Allande
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/25
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      Poules 8
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49158&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				106
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (100953) ELISSALDE Andoni (S)
+       </li>
+       <li>
+        (098558) HARISTOY Xalbat
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (099552) ZUFIAURRE MUJICA Ttale
+       </li>
+       <li>
+        (110806) GOITY Vassili
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/12
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49159&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				107
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104944) FONTAGNE Joan
+       </li>
+       <li>
+        (101348) SUHUBIETTE Clement
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (096821) SOBOLAK Inaki
+       </li>
+       <li>
+        (100870) ARRUEBARRENA Gorka
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/13
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49160&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				108
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      04/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (100613) TROUNDAY Luken
+       </li>
+       <li>
+        (104276) ECHEVERRIA Ukain
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (105338) DAGUERRE Amaiur
+       </li>
+       <li>
+        (105646) TRECU Pampi
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/27
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49161&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				109
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (096821) SOBOLAK Inaki
+       </li>
+       <li>
+        (100870) ARRUEBARRENA Gorka
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (100953) ELISSALDE Andoni (S)
+       </li>
+       <li>
+        (098558) HARISTOY Xalbat
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      19/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49162&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				110
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (105338) DAGUERRE Amaiur
+       </li>
+       <li>
+        (105646) TRECU Pampi
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104944) FONTAGNE Joan
+       </li>
+       <li>
+        (101348) SUHUBIETTE Clement
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      33/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49163&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				111
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      11/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (099552) ZUFIAURRE MUJICA Ttale
+       </li>
+       <li>
+        (110806) GOITY Vassili
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (100613) TROUNDAY Luken
+       </li>
+       <li>
+        (104276) ECHEVERRIA Ukain
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      12/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49164&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				112
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (100953) ELISSALDE Andoni (S)
+       </li>
+       <li>
+        (098558) HARISTOY Xalbat
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (105338) DAGUERRE Amaiur
+       </li>
+       <li>
+        (105646) TRECU Pampi
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/37
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49165&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				113
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104944) FONTAGNE Joan
+       </li>
+       <li>
+        (101348) SUHUBIETTE Clement
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (100613) TROUNDAY Luken
+       </li>
+       <li>
+        (104276) ECHEVERRIA Ukain
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/37
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49166&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				114
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      18/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (096821) SOBOLAK Inaki
+       </li>
+       <li>
+        (100870) ARRUEBARRENA Gorka
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (099552) ZUFIAURRE MUJICA Ttale
+       </li>
+       <li>
+        (110806) GOITY Vassili
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/39
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49167&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				115
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (100613) TROUNDAY Luken
+       </li>
+       <li>
+        (104276) ECHEVERRIA Ukain
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (100953) ELISSALDE Andoni (S)
+       </li>
+       <li>
+        (098558) HARISTOY Xalbat
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/30
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49168&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				116
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (105338) DAGUERRE Amaiur
+       </li>
+       <li>
+        (105646) TRECU Pampi
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (096821) SOBOLAK Inaki
+       </li>
+       <li>
+        (100870) ARRUEBARRENA Gorka
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/23
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49169&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				117
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      25/02/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104944) FONTAGNE Joan
+       </li>
+       <li>
+        (101348) SUHUBIETTE Clement
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (099552) ZUFIAURRE MUJICA Ttale
+       </li>
+       <li>
+        (110806) GOITY Vassili
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/14
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49170&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				118
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (100953) ELISSALDE Andoni (S)
+       </li>
+       <li>
+        (098558) HARISTOY Xalbat
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104944) FONTAGNE Joan
+       </li>
+       <li>
+        (101348) SUHUBIETTE Clement
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      27/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49171&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				119
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (096821) SOBOLAK Inaki
+       </li>
+       <li>
+        (100870) ARRUEBARRENA Gorka
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (100613) TROUNDAY Luken
+       </li>
+       <li>
+        (104276) ECHEVERRIA Ukain
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      19/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49172&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       P  			    				120
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      03/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (099552) ZUFIAURRE MUJICA Ttale
+       </li>
+       <li>
+        (110806) GOITY Vassili
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (105338) DAGUERRE Amaiur
+       </li>
+       <li>
+        (105646) TRECU Pampi
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      22/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td colspan="7">
+      Trinquet/Main Nue Groupe B
+      <span style="padding-left:1em;">
+       M14 - Benjamins - Kimuak
+      </span>
+      <span style="padding-left:1em;">
+      </span>
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      1/16ème de finale
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49313&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				1
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100333) AMESTOY Pierre
+       </li>
+       <li>
+        (098561) CORNU IRIBARNE Peio
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (109782) LOURME Iban (S)
+       </li>
+       <li>
+        (106902) IDIART Antton
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/18
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49314&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				2
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107577) HASQUET BEGUE Baptiste
+       </li>
+       <li>
+        (102898) GALANT Jon
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ABARRATIA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102351) DIRASSE Hodei
+       </li>
+       <li>
+        (102209) AROTCARENA Ioritz
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/15
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49315&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				3
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105118) ETCHEPARE Gorka
+       </li>
+       <li>
+        (105335) DIGONNET OURTAU Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (103490) ZUGASTI Pierre
+       </li>
+       <li>
+        (101316) VIAL Nino
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/00
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49316&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				4
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (099168) LABROSSE OTHARAN Gabriel
+       </li>
+       <li>
+        (104559) LARRE Enzo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (101365) RECALDE Luken
+       </li>
+       <li>
+        (101364) DAMESTOY-OXARANGO Andoni
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/36
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49317&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				5
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      SARAKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105266) BERASATEGUY Enaut
+       </li>
+       <li>
+        (105267) IDOATE Xan
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104371) PIERRESTEGUY Iban
+       </li>
+       <li>
+        (107415) JOLESSE Andoni
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      27/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49318&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				6
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100610) BARRENECHE ASTIGARRAGA Iban
+       </li>
+       <li>
+        (102118) CARRICABURU Mattin
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (105338) DAGUERRE Amaiur
+       </li>
+       <li>
+        (105646) TRECU Pampi
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/16
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49319&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				7
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104944) FONTAGNE Joan
+       </li>
+       <li>
+        (101348) SUHUBIETTE Clement
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      AZKAINDARRAK BAT
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (110148) DIRAND Sandro
+       </li>
+       <li>
+        (101898) ITURRIA Enzo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/18
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49320&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				8
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101755) LOUBERRY Pierre
+       </li>
+       <li>
+        (101341) GARAT Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107496) PALOMES Iban
+       </li>
+       <li>
+        (107475) CHAMALBIDE Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/19
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49321&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				9
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098837) GALLO Aimar
+       </li>
+       <li>
+        (103453) CALVO-RODRIGUEZ Urko
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      INTHALATZ
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101561) CORRET Maju
+       </li>
+       <li>
+        (105413) DOYHENARD-HIRIGOYEN Unai
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/23
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49322&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				10
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100709) CASSAING Patxi
+       </li>
+       <li>
+        (100806) LARRONDO Jules
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (101216) DUHART Allande
+       </li>
+       <li>
+        (104201) KOPUT-IGUINIZ Odei
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/31
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49323&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				11
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (100613) TROUNDAY Luken
+       </li>
+       <li>
+        (104276) ECHEVERRIA Ukain
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      OZTIBARTARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (106626) IRIARTE Olhain
+       </li>
+       <li>
+        (106617) OILLARBURU Patxi (S)
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/16
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49324&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				12
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      UHALDEAN
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (102729) OYHENART Yon
+       </li>
+       <li>
+        (108917) CASTAIGNAU ROMEO
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101865) ELIZONDO Jon
+       </li>
+       <li>
+        (104772) ETCHEVERRY Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      32/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49325&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				13
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102113) HARAMBURU Antton
+       </li>
+       <li>
+        (098515) PERES Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ATZARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (104658) RETEGUI Andoni
+       </li>
+       <li>
+        (104657) OURQUIA Iban
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/28
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49326&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				14
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      KANBOARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098153) MAISTERRENA Ellande
+       </li>
+       <li>
+        (101057) IRASSART Estebe
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103000) GAINZA Baptiste
+       </li>
+       <li>
+        (102263) ETCHEVERRY Louis
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      39/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49327&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				15
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (100666) SORHUET Xan
+       </li>
+       <li>
+        (104486) SOULE Egoitz
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (04)
+       <br/>
+       <li>
+        (100953) ELISSALDE Andoni (S)
+       </li>
+       <li>
+        (098558) HARISTOY Xalbat
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/26
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49328&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       S  			    				16
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      10/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102035) BEHOTEGUY Allande
+       </li>
+       <li>
+        (102702) DENDALETCHE Eneko
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107454) HASQUET BEGUE Antoni
+       </li>
+       <li>
+        (099381) AGUINAGA-ORONOS Inaki
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      28/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td colspan="7">
+      Trinquet/Main Nue Groupe B
+      <span style="padding-left:1em;">
+       M14 - Benjamins - Kimuak
+      </span>
+      <span style="padding-left:1em;">
+      </span>
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      1/8ème de finale
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49361&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       H  			    				1
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      17/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100333) AMESTOY Pierre
+       </li>
+       <li>
+        (098561) CORNU IRIBARNE Peio
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (107454) HASQUET BEGUE Antoni
+       </li>
+       <li>
+        (099381) AGUINAGA-ORONOS Inaki
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/25
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49362&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       H  			    				2
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      17/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107577) HASQUET BEGUE Baptiste
+       </li>
+       <li>
+        (102898) GALANT Jon
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (100666) SORHUET Xan
+       </li>
+       <li>
+        (104486) SOULE Egoitz
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/26
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49363&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       H  			    				3
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      17/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105118) ETCHEPARE Gorka
+       </li>
+       <li>
+        (105335) DIGONNET OURTAU Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ITSASUARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (103000) GAINZA Baptiste
+       </li>
+       <li>
+        (102263) ETCHEVERRY Louis
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/21
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49364&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       H  			    				4
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      17/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      AIRETIK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (099168) LABROSSE OTHARAN Gabriel
+       </li>
+       <li>
+        (104559) LARRE Enzo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102113) HARAMBURU Antton
+       </li>
+       <li>
+        (098515) PERES Matteo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      38/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49365&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       H  			    				5
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      17/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104371) PIERRESTEGUY Iban
+       </li>
+       <li>
+        (107415) JOLESSE Andoni
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101865) ELIZONDO Jon
+       </li>
+       <li>
+        (104772) ETCHEVERRY Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      38/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49366&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       H  			    				6
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      17/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100610) BARRENECHE ASTIGARRAGA Iban
+       </li>
+       <li>
+        (102118) CARRICABURU Mattin
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (03)
+       <br/>
+       <li>
+        (100613) TROUNDAY Luken
+       </li>
+       <li>
+        (104276) ECHEVERRIA Ukain
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/15
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49367&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       H  			    				7
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      17/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (104944) FONTAGNE Joan
+       </li>
+       <li>
+        (101348) SUHUBIETTE Clement
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100709) CASSAING Patxi
+       </li>
+       <li>
+        (100806) LARRONDO Jules
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      30/40
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49368&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       H  			    				8
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      17/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101755) LOUBERRY Pierre
+       </li>
+       <li>
+        (101341) GARAT Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      URRUNARRAK
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (098837) GALLO Aimar
+       </li>
+       <li>
+        (103453) CALVO-RODRIGUEZ Urko
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:white">
+      40/15
+      <br/>
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td colspan="7">
+      Trinquet/Main Nue Groupe B
+      <span style="padding-left:1em;">
+       M14 - Benjamins - Kimuak
+      </span>
+      <span style="padding-left:1em;">
+      </span>
+     </td>
+    </tr>
+    <tr>
+     <td class="mTitreSmall" colspan="2">
+      1/4 de finale
+     </td>
+     <td class="mTitreSmall">
+      Club 1
+     </td>
+     <td class="mTitreSmall">
+      Club 2
+     </td>
+     <td class="mTitreSmall">
+      Score
+     </td>
+     <td class="mTitreSmall">
+      Commentaire
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49436&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       Q  			    				1
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      24/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      DENEK BAT
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100333) AMESTOY Pierre
+       </li>
+       <li>
+        (098561) CORNU IRIBARNE Peio
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST MARTIN DE HINX SMBS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101755) LOUBERRY Pierre
+       </li>
+       <li>
+        (101341) GARAT Matteo
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49437&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       Q  			    				2
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      24/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ZAHARRER SEGI
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (107577) HASQUET BEGUE Baptiste
+       </li>
+       <li>
+        (102898) GALANT Jon
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      S.A. MAULEONAIS
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100709) CASSAING Patxi
+       </li>
+       <li>
+        (100806) LARRONDO Jules
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49438&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       Q  			    				3
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      24/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      KAPITO HARRI
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (105118) ETCHEPARE Gorka
+       </li>
+       <li>
+        (105335) DIGONNET OURTAU Antton
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (100610) BARRENECHE ASTIGARRAGA Iban
+       </li>
+       <li>
+        (102118) CARRICABURU Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+    <tr>
+     <td class="L0" nowrap="" valign="middle">
+      <a href="./resultats2.php?no_renc=49439&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate=">
+       <img border="0" src="./images/edit.gif"/>
+      </a>
+      <strong>
+       Q  			    				4
+      </strong>
+     </td>
+     <td align="center" class="L0">
+      24/03/2024
+     </td>
+     <td class="L0" nowrap="">
+      ST PEE U.C.
+      <span class="small">
+       (02)
+       <br/>
+       <li>
+        (102113) HARAMBURU Antton
+       </li>
+       <li>
+        (098515) PERES Matteo
+       </li>
+      </span>
+     </td>
+     <td class="L0" nowrap="">
+      GOIZEKO IZARRA
+      <span class="small">
+       (01)
+       <br/>
+       <li>
+        (101865) ELIZONDO Jon
+       </li>
+       <li>
+        (104772) ETCHEVERRY Mattin
+       </li>
+      </span>
+     </td>
+     <td align="center" class="L0" style="background-color:">
+     </td>
+     <td class="L0 small" width="100">
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>

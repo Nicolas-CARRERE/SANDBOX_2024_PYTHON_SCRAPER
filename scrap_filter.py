@@ -158,6 +158,8 @@ class ScrapFilters:
         for select in selects:
             options = select.find_all('option')
             for option in options:
+                if "*" in option.text.lower() or "tous" in option.text.lower() or "toutes" in option.text.lower() or not option.text.strip():
+                    continue
                 subdomain_id = ScrapFilters.get_id(db_conn, "subdomain", "name", subdomain)
                 criteria_id = ScrapFilters.get_id(db_conn, "criteria", "name", select['name'])
                 criteria_value_id = ScrapFilters.get_id(db_conn, "criteria_value", "value", option['value'], option.text)

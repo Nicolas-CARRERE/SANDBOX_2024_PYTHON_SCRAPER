@@ -27,18 +27,17 @@ from db_conn import get_db_conn
 class ScrapResults:
     ''' scrap results from url'''
     # This function __init__ is used to initialize the class
-    def __init__(self, championship: str):
+    def __init__(self, url: str):
         self.conf = Conf()
         self.headers = {'User-Agent': 'Mozilla/5.0'}
         self.session = self._create_session()
         self.loop = asyncio.get_event_loop()
 
-    def fetch_data_from_url(self, championship):
-        url = self.conf.championship_list.get(championship)
+    def fetch_data_from_url(self, url):
         if url:
             return self.loop.run_until_complete(self.fetch_data(url))
         else:
-            return print("Championship URL not found in the configuration.")
+            return print("No result for this URL.")
 
     async def fetch_data(self, url):
         page = self.session.get(url, headers=self.headers, allow_redirects=True)
@@ -46,8 +45,83 @@ class ScrapResults:
             await asyncio.sleep(random.randint(3, 5))
             page = self.session.get(url, headers=self.headers)
             if page.status_code == 200:
-                html = bs4(page.text, 'html.parser')
-                return html
+                soup = bs4(page.content, 'html.parser')
+                # remove scripts
+                for script in soup(["script", "style"]):
+                    script.extract()
+                # remove   <div id="menu">
+                for head in soup.find_all("head"):
+                    head.decompose()
+                for div in soup.find_all("div", {'id': 'menu'}):
+                    div.decompose()
+                for form in soup.find_all("form"):
+                    form.decompose()
+                html = soup.prettify()
+                # Écriture de la valeur dans un fichier texte
+                # with open("valeur.txt", "w") as file:
+                #     file.write(html)
+
+                # get the title
+                title = None
+                try:
+                    h1 = soup.find('h1')
+                    if h1:
+                        title = h1.text.split('\n')[1].strip()
+                except AttributeError as e:
+                    title = None
+
+                # get the championship
+                championship = None
+                games = []
+                try:
+                    for tr in enumerate(soup.find_all('tr')):
+                        index, tr = tr
+                        if index == 1:
+                            for td in tr.find_all('td'):
+                                if td.text:
+                                    championship = td.text.split('\n')[1].strip()
+                        else:
+                            try:
+                                if len(tr.find_all('td')) < 6:
+                                    continue
+                                date = tr.find('td', class_='L0', align='center').text.strip()
+                                team1 = tr.find_all('td', class_='L0')[2].text.strip().split('\n')[0].replace('\xa0', ' ')
+                                players = tr.find_all('li')
+                                players = [player.text.strip().replace('\xa0', ' ') for player in players]
+                                playerA1 = players[0]
+                                playerB1 = players[1]
+                                team2 = tr.find_all('td', class_='L0')[3].text.strip().split('\n')[0].replace('\xa0', ' ')
+                                playerA2 = players[2]
+                                playerB2 = players[3]
+                                score = tr.find_all('td', class_='L0')[4].text.strip()
+                                comment = tr.find_all('td', class_='L0')[5].text.strip()
+                                games.append({
+                                    'title': title,
+                                    'championship': championship,
+                                    'date': date,
+                                    'team1': team1,
+                                    'playerA1': playerA1,
+                                    'playerB1': playerB1,
+                                    'team2': team2,
+                                    'playerA2': playerA2,
+                                    'playerB2': playerB2,
+                                    'score': score,
+                                    'comment': comment,
+                                    # 'scraped_url': url,
+                                })
+                            except IndexError:
+                                continue
+                except AttributeError:
+                    championship = None
+                # create an object data that will be used to save the results to the database
+                data = {
+                    'scraped_url': url,
+                    'title': title,
+                    'championship': championship
+                }
+
+                # scrap games : #, date, team1, playerA1, playerB1, team2, playerA2, playerB2, score, result
+                print(games)
             else:
                 print("Failed to retrieve the page after delay. Status code:", page.status_code)
                 return None
@@ -69,25 +143,6 @@ class ScrapResults:
         cursor = db_conn.cursor()
         commands = (
             """
-            CREATE TABLE IF NOT EXISTS subdomain (
-                subdomain_id SERIAL PRIMARY KEY,
-                name TEXT NOT NULL
-            )
-            """,
-            """
-            CREATE TABLE IF NOT EXISTS criteria (
-                criteria_id SERIAL PRIMARY KEY,
-                name TEXT NOT NULL
-            )
-            """,
-            """
-            CREATE TABLE IF NOT EXISTS criteria_value (
-                criteria_value_id SERIAL PRIMARY KEY,
-                value TEXT NULL,
-                text TEXT NULL
-            )
-            """,
-            """
             CREATE TABLE IF NOT EXISTS data (
                 data_id SERIAL PRIMARY KEY,
                 scraped_url TEXT NULL,
@@ -95,20 +150,6 @@ class ScrapResults:
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
-            """,
-            """
-            CREATE TABLE IF NOT EXISTS result (
-                result_id SERIAL PRIMARY KEY,
-                subdomain_id INTEGER REFERENCES subdomain(subdomain_id),
-                criteria_id INTEGER REFERENCES criteria(criteria_id),
-                criteria_value_id INTEGER REFERENCES criteria_value(criteria_value_id)
-            )
-            """,
-            """
-            CREATE TABLE IF NOT EXISTS data_results (
-                data_id INTEGER REFERENCES data(data_id),
-                result_id INTEGER REFERENCES result(result_id)
-            );
             """
         )
         for command in commands:
@@ -117,68 +158,54 @@ class ScrapResults:
     
     # This function record_exists is used to check if the record exists in the database
     @staticmethod
-    def record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
+    def record_exists(db_conn, scraped_url, data_html):
         cursor = db_conn.cursor()
         query = """
             SELECT EXISTS(
-                SELECT 1 FROM result
-                WHERE subdomain_id = %s
-                AND criteria_id = %s
-                AND criteria_value_id = %s
+                SELECT 1 FROM data
+                WHERE scraped_url = %s
+                AND data_html = %s
             )
         """
-        cursor.execute(query, (subdomain_id, criteria_id, criteria_value_id))
+        cursor.execute(query, (scraped_url, str(data_html)))
         return cursor.fetchone()[0]
-
-    # This function get_id is used to get the id of the record in the database
-    @staticmethod
-    def get_id(db_conn, table_name, column_name, value, text=None):
-        cursor = db_conn.cursor()
-        if table_name == "criteria_value":
-            cursor.execute(f"SELECT {table_name}_id FROM {table_name} WHERE {column_name} = %s AND text = %s", (value, text))
-        else:
-            cursor.execute(f"SELECT {table_name}_id FROM {table_name} WHERE {column_name} = %s", (value,))
-        result = cursor.fetchone()
-        if result is None:
-            if table_name == "criteria_value":
-                cursor.execute(f"INSERT INTO {table_name} ({column_name}, text) VALUES (%s, %s) RETURNING {table_name}_id", (value, text))
-            else:
-                cursor.execute(f"INSERT INTO {table_name} ({column_name}) VALUES (%s) RETURNING {table_name}_id", (value,))
-            result = cursor.fetchone()
-            db_conn.commit()
-        return result[0]
 
     # This function parse_html is used to parse the html and save the results to the database
     @staticmethod
     def parse_html(url, html, db_conn):
-        parsed_url = urlparse(url)
-        subdomain = parsed_url.hostname.split('.')[0]
         soup = html
-        selects = soup.find_all('select')
-        for select in selects:
-            options = select.find_all('option')
-            for option in options:
-                subdomain_id = ScrapResults.get_id(db_conn, "subdomain", "name", subdomain)
-                criteria_id = ScrapResults.get_id(db_conn, "criteria", "name", select['name'])
-                criteria_value_id = ScrapResults.get_id(db_conn, "criteria_value", "value", option['value'], option.text)
-                if not ScrapResults.record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
-                    ScrapResults.save_to_db(db_conn, subdomain, select['name'], option['value'], option.text)
+        try:
+            if (soup.find('td', class_='erreur').text):
+                print(soup.find('td', class_='erreur').text)
+                return None
+        except:
+            pass
+        for script in soup(["script", "style"]):
+            script.extract()    # rip it out
+        text = soup.get_text()
+        # break into lines and remove leading and trailing space on each
+        # lines = (line.strip() for line in text.splitlines())
+        # break multi-headlines into a line each
+        # chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+        # drop blank lines
+        # text = '\n'.join(chunk for chunk in chunks if chunk)
+        tds = soup.find_
+        all('td')
 
-    # This function save_to_db is used to save the record to the database
-    @staticmethod
-    def save_to_db(db_conn, subdomain, criteria, criteria_value, option_text):
-        cursor = db_conn.cursor()
+        for td in tds:
+            if len(td.text.strip()) > 4:
+                print(td.text.strip())
+            
+            lis = td.find_all('li')
+            for li in lis:
+                print(li.text.strip()) 
 
-        subdomain_id = ScrapResults.get_id(db_conn, "subdomain", "name", subdomain)
-        criteria_id = ScrapResults.get_id(db_conn, "criteria", "name", criteria)
-        criteria_value_id = ScrapResults.get_id(db_conn, "criteria_value", "value", criteria_value, option_text if option_text else '')
-
-        cursor.execute("SELECT * FROM criteria_value WHERE criteria_value_id = %s", (criteria_value_id,))
-        result = cursor.fetchone()
-        if result is None:
-            raise ValueError(f"criteria_value_id {criteria_value_id} does not exist in criteria_value table")
+        text = tds
+        print(text)
+        if not ScrapResults.record_exists(db_conn, url, text):
+            cursor = db_conn.cursor()
+            cursor.execute("INSERT INTO data (scraped_url, data_html) VALUES (%s, %s)", (url, str(html)))
+            db_conn.commit()
+            return text
         else:
-            if not ScrapResults.record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
-                cursor.execute("INSERT INTO result (subdomain_id, criteria_id, criteria_value_id) VALUES (%s, %s, %s)",
-                            (subdomain_id, criteria_id, criteria_value_id))
-                db_conn.commit()
+            return None
