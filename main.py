@@ -124,10 +124,63 @@ class Scrap:
             # Récupérer les données de la page
             try:
                 result_scraper = ScrapResults(url)
+                result_scraper.create_table(db_conn)
                 print("Scrapping championship: " + url)
-                html = result_scraper.fetch_data_from_url(url)
-                print(html)
-                # result_scraper.parse_html(url, html, db_conn)
+                games = result_scraper.fetch_data_from_url(url)
+                print(games)
+                for game in games:
+                    if result_scraper.record_exists(
+                        db_conn,
+                        game['scraped_url'],
+                        game['title'],
+                        game['championship'],
+                        game['date'],
+                        game['game'],
+                        game['team1'],
+                        game['playerA1'],
+                        game['playerB1'],
+                        game['team2'],
+                        game['playerA2'],
+                        game['playerB2'],
+                        game['score'],
+                        game['comment']
+                    ):
+                        continue
+                    else:
+                        result_scraper.save_into_db(
+                            db_conn,
+                            game['scraped_url'],
+                            game['title'],
+                            game['championship'],
+                            game['date'],
+                            game['game'],
+                            game['team1'],
+                            game['playerA1'],
+                            game['playerB1'],
+                            game['team2'],
+                            game['playerA2'],
+                            game['playerB2'],
+                            game['score'],
+                            game['comment'],
+                            datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                            datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                        )
+                        sleep(1)
+                        print(
+                            game['scraped_url'],
+                            game['title'],
+                            game['championship'],
+                            game['date'],
+                            game['game'],
+                            game['team1'],
+                            game['playerA1'],
+                            game['playerB1'],
+                            game['team2'],
+                            game['playerA2'],
+                            game['playerB2'],
+                            game['score'],
+                            game['comment']
+                        )
                 print("Scrapping championship {} done".format(url))
             except AttributeError as e:
                 print("Error while scrapping championship {}".format(url))

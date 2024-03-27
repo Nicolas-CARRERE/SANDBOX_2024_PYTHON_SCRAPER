@@ -84,21 +84,24 @@ class ScrapResults:
                             try:
                                 if len(tr.find_all('td')) < 6:
                                     continue
-                                date = tr.find('td', class_='L0', align='center').text.strip()
-                                team1 = tr.find_all('td', class_='L0')[2].text.strip().split('\n')[0].replace('\xa0', ' ')
+                                date = tr.find('td', align='center').text.strip()
+                                team1 = tr.find_all('td')[2].text.strip().split('\n')[0].replace('\xa0', ' ')
+                                game = tr.find_all('strong')[0].text.strip().replace(' ', '').replace('\t', '')
                                 players = tr.find_all('li')
                                 players = [player.text.strip().replace('\xa0', ' ') for player in players]
                                 playerA1 = players[0]
                                 playerB1 = players[1]
-                                team2 = tr.find_all('td', class_='L0')[3].text.strip().split('\n')[0].replace('\xa0', ' ')
+                                team2 = tr.find_all('td')[3].text.strip().split('\n')[0].replace('\xa0', ' ')
                                 playerA2 = players[2]
                                 playerB2 = players[3]
-                                score = tr.find_all('td', class_='L0')[4].text.strip()
-                                comment = tr.find_all('td', class_='L0')[5].text.strip()
+                                score = tr.find_all('td')[4].text.strip()
+                                comment = tr.find_all('td')[5].text.strip()
                                 games.append({
+                                    'scraped_url': url,
                                     'title': title,
                                     'championship': championship,
                                     'date': date,
+                                    'game': game,
                                     'team1': team1,
                                     'playerA1': playerA1,
                                     'playerB1': playerB1,
@@ -113,15 +116,7 @@ class ScrapResults:
                                 continue
                 except AttributeError:
                     championship = None
-                # create an object data that will be used to save the results to the database
-                data = {
-                    'scraped_url': url,
-                    'title': title,
-                    'championship': championship
-                }
-
-                # scrap games : #, date, team1, playerA1, playerB1, team2, playerA2, playerB2, score, result
-                print(games)
+                return games
             else:
                 print("Failed to retrieve the page after delay. Status code:", page.status_code)
                 return None
@@ -139,73 +134,64 @@ class ScrapResults:
 
     # This function create_tables is used to create the tables in the database
     @staticmethod
-    def create_tables(db_conn):
+    def create_table(db_conn):
         cursor = db_conn.cursor()
-        commands = (
-            """
-            CREATE TABLE IF NOT EXISTS data (
-                data_id SERIAL PRIMARY KEY,
-                scraped_url TEXT NULL,
-                data_html TEXT NULL,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-            """
+        command = """
+        CREATE TABLE IF NOT EXISTS data (
+            data_id SERIAL PRIMARY KEY,
+            scraped_url TEXT NULL,
+            title TEXT NULL,
+            championship TEXT NULL,
+            date DATE NULL,
+            game TEXT NULL,
+            team1 TEXT NULL,
+            playerA1 TEXT NULL,
+            playerB1 TEXT NULL,
+            team2 TEXT NULL,
+            playerA2 TEXT NULL,
+            playerB2 TEXT NULL,
+            score TEXT NULL,
+            comment TEXT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
-        for command in commands:
-            cursor.execute(command)
+        """
+        cursor.execute(command)
         db_conn.commit()
-    
+
     # This function record_exists is used to check if the record exists in the database
     @staticmethod
-    def record_exists(db_conn, scraped_url, data_html):
+    def record_exists(db_conn, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment):
         cursor = db_conn.cursor()
         query = """
             SELECT EXISTS(
                 SELECT 1 FROM data
                 WHERE scraped_url = %s
-                AND data_html = %s
+                AND title = %s
+                AND championship = %s
+                AND date = %s
+                AND game = %s
+                AND team1 = %s
+                AND playerA1 = %s
+                AND playerB1 = %s
+                AND team2 = %s
+                AND playerA2 = %s
+                AND playerB2 = %s
+                AND score = %s
+                AND comment = %s
             )
         """
-        cursor.execute(query, (scraped_url, str(data_html)))
+        cursor.execute(query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment))
         return cursor.fetchone()[0]
 
     # This function parse_html is used to parse the html and save the results to the database
     @staticmethod
-    def parse_html(url, html, db_conn):
-        soup = html
-        try:
-            if (soup.find('td', class_='erreur').text):
-                print(soup.find('td', class_='erreur').text)
-                return None
-        except:
-            pass
-        for script in soup(["script", "style"]):
-            script.extract()    # rip it out
-        text = soup.get_text()
-        # break into lines and remove leading and trailing space on each
-        # lines = (line.strip() for line in text.splitlines())
-        # break multi-headlines into a line each
-        # chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-        # drop blank lines
-        # text = '\n'.join(chunk for chunk in chunks if chunk)
-        tds = soup.find_
-        all('td')
-
-        for td in tds:
-            if len(td.text.strip()) > 4:
-                print(td.text.strip())
-            
-            lis = td.find_all('li')
-            for li in lis:
-                print(li.text.strip()) 
-
-        text = tds
-        print(text)
-        if not ScrapResults.record_exists(db_conn, url, text):
-            cursor = db_conn.cursor()
-            cursor.execute("INSERT INTO data (scraped_url, data_html) VALUES (%s, %s)", (url, str(html)))
-            db_conn.commit()
-            return text
-        else:
-            return None
+    def save_into_db(db_conn, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at):
+        cursor = db_conn.cursor()
+        query = """
+            INSERT INTO data (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+        cursor.execute(query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at))
+        db_conn.commit()
+        return cursor.lastrowid
