@@ -1,0 +1,18 @@
+163 <tr>
+<td class="L0" nowrap="" valign="middle">
+<a href="./resultats2.php?no_renc=49439&amp;InVille=&amp;InClub=&amp;InCompet=20240102&amp;InSpec=2&amp;InDate="><img border="0" src="./images/edit.gif"/>
+</a>
+<strong>
+                             
+                            Q                                                   4                                                    
+                            </strong>
+</td>
+<td align="center" class="L0">24/03/2024 </td>
+<td class="L0" nowrap="">ST PEE U.C. <span class="small">(02)<br/>
+<li> (102113) HARAMBURU Antton </li><li> (098515) PERES Matteo </li></span></td>
+<td class="L0" nowrap="">GOIZEKO IZARRA <span class="small">(01)<br/>
+<li> (101865) ELIZONDO Jon </li><li> (104772) ETCHEVERRY Mattin </li></span></td>
+<td align="center" class="L0" style="background-color:"></td>
+<td class="L0 small" width="100">
+</td>
+</tr>

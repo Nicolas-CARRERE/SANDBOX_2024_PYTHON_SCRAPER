@@ -1,93 +1,235 @@
-# create a script based on scrap_filter.py
-# to iterate on the differents filter to get the results and store them in DB
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os
-from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from time import sleep
-from bs4 import BeautifulSoup
-from db_conn import get_db_conn
+import time
+import random
+import asyncio
+from bs4 import BeautifulSoup as bs4
+import requests
+from dotenv import load_dotenv
+from resources.conf import Conf
+
+import os
+import time
+import random
+import asyncio
+from bs4 import BeautifulSoup as bs4
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+from dotenv import load_dotenv
+from resources.conf import Conf
 from urllib.parse import urlparse
+from db_conn import get_db_conn
 
-# This class is used to scrape the website and the filters witch are available
-class DataWebScraper:
+# This class is used to scrape the website and the results witch are available
+class ScrapResults:
+    ''' scrap results from url'''
     # This function __init__ is used to initialize the class
-    def __init__(self, driver_path, browser_options):
-        self.driver = self.setup_driver(driver_path, browser_options)
+    def __init__(self, url: str):
+        self.conf = Conf()
+        self.headers = {'User-Agent': 'Mozilla/5.0'}
+        self.session = self._create_session()
+        self.loop = asyncio.get_event_loop()
 
-    # This function setup_driver is used to setup the driver of the browser
-    @staticmethod
-    def setup_driver(driver_path, browser_options):
-        service = Service(driver_path)
-        service.start()
-        return webdriver.Chrome(service=service, options=browser_options)
+    def fetch_data_from_url(self, url):
+        if url:
+            return self.loop.run_until_complete(self.fetch_data(url))
+        else:
+            return print("No result for this URL.")
 
-    # This function quit is used to quit the driver of the browser
-    def quit(self):
-        self.driver.quit()
+    async def fetch_data(self, url):
+        page = self.session.get(url, headers=self.headers, allow_redirects=True)
+        if page.status_code == 200:
+            await asyncio.sleep(random.randint(3, 5))
+            page = self.session.get(url, headers=self.headers)
+            if page.status_code == 200:
+                soup = bs4(page.content, 'html.parser')
+                # remove scripts
+                for script in soup(["script", "style"]):
+                    script.extract()
+                # remove   <div id="menu">
+                for head in soup.find_all("head"):
+                    head.decompose()
+                for div in soup.find_all("div", {'id': 'menu'}):
+                    div.decompose()
+                for form in soup.find_all("form"):
+                    form.decompose()
+                html = soup.prettify()
+                # Écriture de la valeur dans un fichier texte
+                # with open("valeur.txt", "w") as file:
+                #     file.write(html)
 
-    # This function get_html is used to get the html of the website
-    # It is used to get the html of the website and the filters witch are available
-    # By calling get twice we ensure that the page is fully loaded before we start scraping
-    def get_html(self, url):
-        try:
-            self.driver.get(url)
-            sleep(2)
-            self.driver.get(url)
-            sleep(2)
-            return self.driver.page_source
-        except Exception as e:
-            print("An error occurred while getting HTML:", str(e))
+                # get the title
+                title = None
+                try:
+                    h1 = soup.find('h1')
+                    if h1:
+                        title = h1.text.split('\n')[1].strip()
+                except AttributeError as e:
+                    title = None
+
+                # get the championship
+                championship = None
+                games = []
+                try:
+                    for tr in enumerate(soup.find_all('tr')):
+                        index, tr = tr
+                        if index == 1:
+                            for td in tr.find_all('td'):
+                                if td.text:
+                                    championship = td.text.split('\n')[1].strip()
+                        else:
+                            try:
+                                if len(tr.find_all('td')) < 6:
+                                    continue
+                                date = tr.find('td', align='center').text.strip()
+                                team1 = tr.find_all('td')[2].text.strip().split('\n')[0].replace('\xa0', ' ')
+                                game = tr.find_all('strong')[0].text.strip().replace(' ', '').replace('\t', '')
+                                players = tr.find_all('li')
+                                players = [player.text.strip().replace('\xa0', ' ') for player in players]
+                                playerA1 = players[0]
+                                playerB1 = players[1]
+                                team2 = tr.find_all('td')[3].text.strip().split('\n')[0].replace('\xa0', ' ')
+                                playerA2 = players[2]
+                                playerB2 = players[3]
+                                score = tr.find_all('td')[4].text.strip()
+                                comment = tr.find_all('td')[5].text.strip()
+                                games.append({
+                                    'scraped_url': url,
+                                    'title': title,
+                                    'championship': championship,
+                                    'date': date,
+                                    'game': game,
+                                    'team1': team1,
+                                    'playerA1': playerA1,
+                                    'playerB1': playerB1,
+                                    'team2': team2,
+                                    'playerA2': playerA2,
+                                    'playerB2': playerB2,
+                                    'score': score,
+                                    'comment': comment,
+                                    # 'scraped_url': url,
+                                })
+                            except IndexError:
+                                continue
+                except AttributeError:
+                    championship = None
+                return games
+            else:
+                print("Failed to retrieve the page after delay. Status code:", page.status_code)
+                return None
+        else:
+            print("Failed to retrieve the initial page. Status code:", page.status_code)
             return None
+        
+    # This function create_session is used to create a session for the requests library.
+    def _create_session(self):
+        session = requests.Session()
+        retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+        session.mount('http://', HTTPAdapter(max_retries=retries))
+        session.mount('https://', HTTPAdapter(max_retries=retries))
+        return session
+
+    # This function create_tables is used to create the tables in the database
+    @staticmethod
+    def create_table(db_conn):
+        cursor = db_conn.cursor()
+        command = """
+        CREATE TABLE IF NOT EXISTS data (
+            data_id SERIAL PRIMARY KEY,
+            scraped_url TEXT NULL,
+            title TEXT NULL,
+            championship TEXT NULL,
+            date DATE NULL,
+            game TEXT NULL,
+            team1 TEXT NULL,
+            playerA1 TEXT NULL,
+            playerB1 TEXT NULL,
+            team2 TEXT NULL,
+            playerA2 TEXT NULL,
+            playerB2 TEXT NULL,
+            score TEXT NULL,
+            comment TEXT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+        """
+        cursor.execute(command)
+        db_conn.commit()
 
     # This function record_exists is used to check if the record exists in the database
     @staticmethod
-    def record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
+    def record_exists(db_conn, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment):
         cursor = db_conn.cursor()
         query = """
             SELECT EXISTS(
                 SELECT 1 FROM data
                 WHERE scraped_url = %s
-                AND data_html = %s
-                AND updated_at = %s
+                AND title = %s
+                AND championship = %s
+                AND date = %s
+                AND game = %s
+                AND team1 = %s
+                AND playerA1 = %s
+                AND playerB1 = %s
+                AND team2 = %s
+                AND playerA2 = %s
+                AND playerB2 = %s
+                AND score = %s
+                AND comment = %s
             )
         """
-        cursor.execute(query, (subdomain_id, criteria_id, criteria_value_id))
+        cursor.execute(query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment))
         return cursor.fetchone()[0]
 
-    # This function parse_html is used to parse the HTML and save the filters to the database
+    # This function parse_html is used to parse the html and save the results to the database
     @staticmethod
-    def parse_html(url, html, db_conn):
-        soup = BeautifulSoup(html, 'html.parser')
-        tds = soup.find_all('td')
-        
-        for td in tds:
-            if len(td.text.strip()) > 4:
-                print(td.text)
+    def save_into_db(db_conn, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at):
+        cursor = db_conn.cursor()
+        # firstly try to update the record
+        try:
+            query = """
+                UPDATE data
+                SET
+                    scraped_url = %s,
+                    title = %s,
+                    championship = %s,
+                    date = %s,
+                    game = %s,
+                    team1 = %s,
+                    playerA1 = %s,
+                    playerB1 = %s,
+                    team2 = %s,
+                    playerA2 = %s,
+                    playerB2 = %s,
+                    score = %s,
+                    comment = %s,
+                    updated_at = %s
+                WHERE scraped_url = %s
+                AND title = %s
+                AND championship = %s
+                AND date = %s
+                AND game = %s
+                AND team1 = %s
+                AND playerA1 = %s
+                AND playerB1 = %s
+                AND team2 = %s
+                AND playerA2 = %s
+                AND playerB2 = %s
+            """
+            cursor.execute(query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, updated_at, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
+            db_conn.commit()
+            return cursor.lastrowid
+        except Exception as e:
+            print(e)
+            pass
             
-            lis = td.find_all('li')
-            for li in lis:
-                print(li.text.strip())                    
-                # DataWebScraper.save_to_db(db_conn, subdomain, select['name'], option['value'], option.text)   
-
-    # This function save_to_db is used to save the record to the database
-    # @staticmethod
-    # def save_to_db(db_conn, subdomain, criteria, criteria_value, option_text):
-    #     cursor = db_conn.cursor()
-
-    #     scraped_url = 
-    #     data_html = DataWebScraper.get_id(db_conn, "criteria", "name", criteria)
-    #     created_at = datetime.now()
-    #     updated_at = datetime.now()
-
-    #     cursor.execute("SELECT * FROM criteria_value WHERE criteria_value_id = %s", (criteria_value_id,))
-    #     result = cursor.fetchone()
-    #     if result is None:
-    #         raise ValueError(f"criteria_value_id {criteria_value_id} does not exist in criteria_value table")
-    #     else:
-    #         if not DataWebScraper.record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
-    #             cursor.execute("INSERT INTO filter (subdomain_id, criteria_id, criteria_value_id) VALUES (%s, %s, %s)",
-    #                         (subdomain_id, criteria_id, criteria_value_id))
-    #             db_conn.commit()
-
+        query = """
+            INSERT INTO data (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """
+        cursor.execute(query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at))
+        db_conn.commit()
+        return cursor.lastrowid
