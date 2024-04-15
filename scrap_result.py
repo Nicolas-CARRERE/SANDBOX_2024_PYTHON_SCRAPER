@@ -188,22 +188,29 @@ class ScrapResults:
     @staticmethod
     def save_into_db(db_conn, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at):
         cursor = db_conn.cursor()
-        # firstly try to update the record
-        try:
-            query = """
+        # Check if the record exists
+        check_query = """
+            SELECT 1 FROM data
+            WHERE scraped_url = %s
+            AND title = %s
+            AND championship = %s
+            AND date = %s
+            AND game = %s
+            AND team1 = %s
+            AND playerA1 = %s
+            AND playerB1 = %s
+            AND team2 = %s
+            AND playerA2 = %s
+            AND playerB2 = %s
+        """
+        cursor.execute(check_query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
+        exists = cursor.fetchone()
+
+        if exists:
+            # If record exists, update it
+            update_query = """
                 UPDATE data
                 SET
-                    scraped_url = %s,
-                    title = %s,
-                    championship = %s,
-                    date = %s,
-                    game = %s,
-                    team1 = %s,
-                    playerA1 = %s,
-                    playerB1 = %s,
-                    team2 = %s,
-                    playerA2 = %s,
-                    playerB2 = %s,
                     score = %s,
                     comment = %s,
                     updated_at = %s
@@ -219,17 +226,14 @@ class ScrapResults:
                 AND playerA2 = %s
                 AND playerB2 = %s
             """
-            cursor.execute(query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, updated_at, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
-            db_conn.commit()
-            return cursor.lastrowid
-        except Exception as e:
-            print(e)
-            pass
-            
-        query = """
-            INSERT INTO data (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-        """
-        cursor.execute(query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at))
+            cursor.execute(update_query, (score, comment, updated_at, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
+        else:
+            # If record does not exist, insert it
+            insert_query = """
+                INSERT INTO data (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            """
+            cursor.execute(insert_query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at))
+
         db_conn.commit()
         return cursor.lastrowid
