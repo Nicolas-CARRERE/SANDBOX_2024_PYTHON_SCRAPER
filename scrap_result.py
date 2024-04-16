@@ -32,14 +32,15 @@ class ScrapResults:
         self.headers = {'User-Agent': 'Mozilla/5.0'}
         self.session = self._create_session()
         self.loop = asyncio.get_event_loop()
+        self.db_conn = get_db_conn()
 
-    def fetch_data_from_url(self, url):
+    def fetch_data_from_url(self, url, combination):
         if url:
-            return self.loop.run_until_complete(self.fetch_data(url))
+            return self.loop.run_until_complete(self.fetch_data(url, combination))
         else:
             return print("No result for this URL.")
 
-    async def fetch_data(self, url):
+    async def fetch_data(self, url, combination):
         page = self.session.get(url, headers=self.headers, allow_redirects=True)
         if page.status_code == 200:
             await asyncio.sleep(random.randint(3, 5))
@@ -84,6 +85,10 @@ class ScrapResults:
                             try:
                                 if len(tr.find_all('td')) < 6:
                                     continue
+                                subdomain_id = self.get_id(self.db_conn, 'subdomain', 'label', combination[0])
+                                championship_id = self.get_id(self.db_conn, 'championship', 'value', combination[1])
+                                speciality_id = self.get_id(self.db_conn, 'speciality', 'value', combination[2])
+                                category_id = self.get_id(self.db_conn, 'category', 'value', combination[3])
                                 date = tr.find('td', align='center').text.strip()
                                 team1 = tr.find_all('td')[2].text.strip().split('\n')[0].replace('\xa0', ' ')
                                 game = tr.find_all('strong')[0].text.strip().replace(' ', '').replace('\t', '')
@@ -97,9 +102,12 @@ class ScrapResults:
                                 score = tr.find_all('td')[4].text.strip()
                                 comment = tr.find_all('td')[5].text.strip()
                                 games.append({
+                                    'subdomain_id': subdomain_id,
+                                    'championship_id': championship_id,
+                                    'speciality_id': speciality_id,
+                                    'category_id': category_id,
                                     'scraped_url': url,
                                     'title': title,
-                                    'championship': championship,
                                     'date': date,
                                     'game': game,
                                     'team1': team1,
@@ -110,8 +118,8 @@ class ScrapResults:
                                     'playerB2': playerB2,
                                     'score': score,
                                     'comment': comment,
-                                    # 'scraped_url': url,
                                 })
+                                print(f"Scraped game: {game}")
                             except IndexError:
                                 continue
                 except AttributeError:
@@ -139,10 +147,13 @@ class ScrapResults:
         command = """
         CREATE TABLE IF NOT EXISTS data (
             data_id SERIAL PRIMARY KEY,
+            subdomain_id INT NOT NULL,
+            championship_id INT NOT NULL,
+            speciality_id INT NOT NULL,
+            category_id INT NOT NULL,
             scraped_url TEXT NULL,
             title TEXT NULL,
-            championship TEXT NULL,
-            date DATE NULL,
+            date TEXT NULL,
             game TEXT NULL,
             team1 TEXT NULL,
             playerA1 TEXT NULL,
@@ -161,14 +172,17 @@ class ScrapResults:
 
     # This function record_exists is used to check if the record exists in the database
     @staticmethod
-    def record_exists(db_conn, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment):
+    def record_exists(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment):
         cursor = db_conn.cursor()
         query = """
             SELECT EXISTS(
                 SELECT 1 FROM data
-                WHERE scraped_url = %s
+                WHERE subdomain_id = %s
+                AND championship_id = %s
+                AND speciality_id = %s
+                AND category_id = %s
+                AND scraped_url = %s
                 AND title = %s
-                AND championship = %s
                 AND date = %s
                 AND game = %s
                 AND team1 = %s
@@ -181,19 +195,33 @@ class ScrapResults:
                 AND comment = %s
             )
         """
-        cursor.execute(query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment))
+        cursor.execute(query, (subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment))
+        return cursor.fetchone()[0]
+    
+    # This function get id from an entity according to the label
+    @staticmethod
+    def get_id(db_conn, table, column, value):
+        cursor = db_conn.cursor()
+        query = f"""
+            SELECT id FROM {table}
+            WHERE {column} = %s
+        """
+        cursor.execute(query, (value,))
         return cursor.fetchone()[0]
 
     # This function parse_html is used to parse the html and save the results to the database
     @staticmethod
-    def save_into_db(db_conn, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at):
+    def save_into_db(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at):
         cursor = db_conn.cursor()
         # Check if the record exists
         check_query = """
             SELECT 1 FROM data
-            WHERE scraped_url = %s
+            WHERE subdomain_id = %s
+            AND championship_id = %s
+            AND speciality_id = %s
+            AND category_id = %s
+            AND scraped_url = %s
             AND title = %s
-            AND championship = %s
             AND date = %s
             AND game = %s
             AND team1 = %s
@@ -203,7 +231,7 @@ class ScrapResults:
             AND playerA2 = %s
             AND playerB2 = %s
         """
-        cursor.execute(check_query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
+        cursor.execute(check_query, (subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
         exists = cursor.fetchone()
 
         if exists:
@@ -214,9 +242,12 @@ class ScrapResults:
                     score = %s,
                     comment = %s,
                     updated_at = %s
-                WHERE scraped_url = %s
+                WHERE subdomain_id = %s
+                AND championship_id = %s
+                AND speciality_id = %s
+                AND category_id = %s
+                AND scraped_url = %s
                 AND title = %s
-                AND championship = %s
                 AND date = %s
                 AND game = %s
                 AND team1 = %s
@@ -226,14 +257,14 @@ class ScrapResults:
                 AND playerA2 = %s
                 AND playerB2 = %s
             """
-            cursor.execute(update_query, (score, comment, updated_at, scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
+            cursor.execute(update_query, (score, comment, updated_at, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
         else:
             # If record does not exist, insert it
             insert_query = """
-                INSERT INTO data (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                INSERT INTO data (subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """
-            cursor.execute(insert_query, (scraped_url, title, championship, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at))
+            cursor.execute(insert_query, (subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at))
 
         db_conn.commit()
         return cursor.lastrowid

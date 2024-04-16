@@ -1,15 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-import os
-import time
-import random
-import asyncio
-from bs4 import BeautifulSoup as bs4
-import requests
-from dotenv import load_dotenv
-from resources.conf import Conf
-
 import os
 import time
 import random
@@ -70,45 +60,80 @@ class ScrapFilters:
         commands = (
             """
             CREATE TABLE IF NOT EXISTS subdomain (
-                subdomain_id SERIAL PRIMARY KEY,
-                name TEXT NOT NULL
+                id SERIAL PRIMARY KEY,
+                label VARCHAR(100) NOT NULL
             )
             """,
             """
-            CREATE TABLE IF NOT EXISTS criteria (
-                criteria_id SERIAL PRIMARY KEY,
-                name TEXT NOT NULL
+            CREATE TABLE IF NOT EXISTS championship (
+                id SERIAL PRIMARY KEY,
+                value VARCHAR(255) NOT NULL,
+                label VARCHAR(255) NOT NULL,
+                subdomain_id INT
             )
-            """,
+            """,            
             """
-            CREATE TABLE IF NOT EXISTS criteria_value (
-                criteria_value_id SERIAL PRIMARY KEY,
-                value TEXT NULL,
-                text TEXT NULL
+            CREATE TABLE IF NOT EXISTS speciality (
+                id SERIAL PRIMARY KEY,
+                value VARCHAR(255) NOT NULL,
+                label VARCHAR(255) NOT NULL,
+                subdomain_id INT
+            )
+            """,            
+            """
+            CREATE TABLE IF NOT EXISTS city (
+                id SERIAL PRIMARY KEY,
+                value VARCHAR(255) NOT NULL,
+                label VARCHAR(255) NOT NULL,
+                subdomain_id INT
+            )
+            """,            
+            """
+            CREATE TABLE IF NOT EXISTS club (
+                id SERIAL PRIMARY KEY,
+                value VARCHAR(255) NOT NULL,
+                label VARCHAR(255) NOT NULL,
+                subdomain_id INT
+            )
+            """,            
+            """
+            CREATE TABLE IF NOT EXISTS category (
+                id SERIAL PRIMARY KEY,
+                value VARCHAR(255) NOT NULL,
+                label VARCHAR(255) NOT NULL,
+                subdomain_id INT
+            )
+            """,            
+            """
+            CREATE TABLE IF NOT EXISTS phase (
+                id SERIAL PRIMARY KEY,
+                value VARCHAR(255) NOT NULL,
+                label VARCHAR(255) NOT NULL,
+                subdomain_id INT
             )
             """,
             """
             CREATE TABLE IF NOT EXISTS data (
-                data_id SERIAL PRIMARY KEY,
+                id SERIAL PRIMARY KEY,
+                subdomain_id INT,
+                championship_id INT,
+                speciality_id INT,
+                category_id INT,
                 scraped_url TEXT NULL,
-                data_html TEXT NULL,
+                title VARCHAR(255) NULL,
+                date DATE NULL,
+                game TEXT NULL,
+                team1 TEXT NULL,
+                playerA1 TEXT NULL,
+                playerB1 TEXT NULL,
+                team2 TEXT NULL,
+                playerA2 TEXT NULL,
+                playerB2 TEXT NULL,
+                score TEXT NULL,
+                comment TEXT NULL,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
-            """,
-            """
-            CREATE TABLE IF NOT EXISTS filter (
-                filter_id SERIAL PRIMARY KEY,
-                subdomain_id INTEGER REFERENCES subdomain(subdomain_id),
-                criteria_id INTEGER REFERENCES criteria(criteria_id),
-                criteria_value_id INTEGER REFERENCES criteria_value(criteria_value_id)
-            )
-            """,
-            """
-            CREATE TABLE IF NOT EXISTS data_filters (
-                data_id INTEGER REFERENCES data(data_id),
-                filter_id INTEGER REFERENCES filter(filter_id)
-            );
             """
         )
         for command in commands:
@@ -117,36 +142,52 @@ class ScrapFilters:
     
     # This function record_exists is used to check if the record exists in the database
     @staticmethod
-    def record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
+    def record_exists(db_conn, subdomain_id, championship_id, speiality_id, category_id):
         cursor = db_conn.cursor()
         query = """
             SELECT EXISTS(
-                SELECT 1 FROM filter
+                SELECT 1 FROM data
                 WHERE subdomain_id = %s
-                AND criteria_id = %s
-                AND criteria_value_id = %s
+                AND championship_id = %s
+                AND speciality_id = %s
+                AND category_id = %s
             )
         """
-        cursor.execute(query, (subdomain_id, criteria_id, criteria_value_id))
+        cursor.execute(query, (subdomain_id, championship_id, speiality_id, category_id))
         return cursor.fetchone()[0]
 
     # This function get_id is used to get the id of the record in the database
     @staticmethod
     def get_id(db_conn, table_name, column_name, value, text=None):
+        # print(f"table_name: {table_name}, column_name: {column_name}, value: {value}, text: {text}")
+        criteria_table_mapping = {
+            "InCompet": "championship",
+            "InSpec": "speciality",
+            "InVille": "city",
+            "InClub": "club",
+            "InCat": "category",
+            "InPhase": "phase",
+            "InComite": None
+        }
+        if table_name == "criteria":
+            table_name = criteria_table_mapping.get(value)
+            if table_name is None:
+                return
+
         cursor = db_conn.cursor()
-        if table_name == "criteria_value":
-            cursor.execute(f"SELECT {table_name}_id FROM {table_name} WHERE {column_name} = %s AND text = %s", (value, text))
+        if table_name == "data":
+            cursor.execute(f"SELECT id FROM {table_name} WHERE {column_name} = %s AND text = %s", (value, text))
         else:
-            cursor.execute(f"SELECT {table_name}_id FROM {table_name} WHERE {column_name} = %s", (value,))
+            cursor.execute(f"SELECT id FROM {table_name} WHERE {column_name} = %s", (value,))
         result = cursor.fetchone()
         if result is None:
-            if table_name == "criteria_value":
-                cursor.execute(f"INSERT INTO {table_name} ({column_name}, text) VALUES (%s, %s) RETURNING {table_name}_id", (value, text))
-            else:
-                cursor.execute(f"INSERT INTO {table_name} ({column_name}) VALUES (%s) RETURNING {table_name}_id", (value,))
-            result = cursor.fetchone()
+            if table_name == "data":
+                cursor.execute(f"INSERT INTO {table_name} ({column_name}, text) VALUES (%s, %s) RETURNING id", (value, text))
+            # else:
+            #     cursor.execute(f"INSERT INTO {table_name} ({column_name}) VALUES (%s) RETURNING id", (value,))
+            # result = cursor.fetchone()
             db_conn.commit()
-        return result[0]
+        return result[0] if result else None
 
     # This function parse_html is used to parse the html and save the filters to the database
     @staticmethod
@@ -156,14 +197,12 @@ class ScrapFilters:
         soup = html
         selects = soup.find_all('select')
         for select in selects:
-            options = select.find_all('option')
+            options = [option for option in select.find_all('option') if not any(x in option.text.lower() for x in ["*", "tous", "toutes"]) and option.text.strip()]
             for option in options:
-                if "*" in option.text.lower() or "tous" in option.text.lower() or "toutes" in option.text.lower() or not option.text.strip():
-                    continue
-                subdomain_id = ScrapFilters.get_id(db_conn, "subdomain", "name", subdomain)
-                criteria_id = ScrapFilters.get_id(db_conn, "criteria", "name", select['name'])
-                criteria_value_id = ScrapFilters.get_id(db_conn, "criteria_value", "value", option['value'], option.text)
-                if not ScrapFilters.record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
+                # Now the get_id function will insert the data into the correct table based on the criteria
+                id = ScrapFilters.get_id(db_conn, "criteria", select['name'], option['value'], option.text)
+                # if no id save the record in the database
+                if not id:
                     ScrapFilters.save_to_db(db_conn, subdomain, select['name'], option['value'], option.text)
 
     # This function save_to_db is used to save the record to the database
@@ -171,16 +210,27 @@ class ScrapFilters:
     def save_to_db(db_conn, subdomain, criteria, criteria_value, option_text):
         cursor = db_conn.cursor()
 
-        subdomain_id = ScrapFilters.get_id(db_conn, "subdomain", "name", subdomain)
-        criteria_id = ScrapFilters.get_id(db_conn, "criteria", "name", criteria)
-        criteria_value_id = ScrapFilters.get_id(db_conn, "criteria_value", "value", criteria_value, option_text if option_text else '')
+        subdomain_id = ScrapFilters.get_id(db_conn, "subdomain", "label", subdomain)
 
-        cursor.execute("SELECT * FROM criteria_value WHERE criteria_value_id = %s", (criteria_value_id,))
+        # map criteria to specific table
+        criteria_table_mapping = {
+            "InCompet": "championship",
+            "InSpec": "speciality",
+            "InVille": "city",
+            "InClub": "club",
+            "InCat": "category",
+            "InPhase": "phase",
+            "InComite": None
+        }
+
+        table_name = criteria_table_mapping.get(criteria)
+        if table_name is None:
+            return
+
+        cursor.execute(f"SELECT id FROM {table_name} WHERE value = %s", (criteria_value,))
         result = cursor.fetchone()
+
         if result is None:
-            raise ValueError(f"criteria_value_id {criteria_value_id} does not exist in criteria_value table")
-        else:
-            if not ScrapFilters.record_exists(db_conn, subdomain_id, criteria_id, criteria_value_id):
-                cursor.execute("INSERT INTO filter (subdomain_id, criteria_id, criteria_value_id) VALUES (%s, %s, %s)",
-                            (subdomain_id, criteria_id, criteria_value_id))
-                db_conn.commit()
+            cursor.execute(f"INSERT INTO {table_name} (value, label, subdomain_id) VALUES (%s, %s, %s) RETURNING id",
+                        (criteria_value, option_text, subdomain_id))
+            db_conn.commit()
