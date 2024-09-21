@@ -92,7 +92,7 @@ class Scrap:
                     games = result_scraper.fetch_data_from_url(url, combinations[index])
                     for game in games:
                         print(f"Game: {game}")
-                        if not result_scraper.record_exists(db_conn, game['subdomain_id'], game['championship_id'], game['speciality_id'], game['category_id'], game['scraped_url'], game['title'], game['date'], game['game'], game['team1'], game['playerA1'], game['playerB1'], game['team2'], game['playerA2'], game['playerB2'], game['score'], game['comment']):
+                        if not result_scraper.complete_record_exists(db_conn, game['subdomain_id'], game['championship_id'], game['speciality_id'], game['category_id'], game['scraped_url'], game['title'], game['date'], game['game'], game['team1'], game['playerA1'], game['playerB1'], game['team2'], game['playerA2'], game['playerB2'], game['score'], game['comment']):
                             print(f"Saving game: {game}")
                             result_scraper.save_into_db(db_conn,
                                                         game['subdomain_id'],

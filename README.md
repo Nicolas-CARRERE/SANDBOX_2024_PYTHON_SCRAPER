@@ -1,4 +1,5 @@
 # SANDBOX_2024_PYTHON_SCRAPER
+
 ## Installation
 
 This project requires Python 3.6+.
@@ -6,6 +7,7 @@ This project requires Python 3.6+.
 You will also need the following Python packages:
 
 <!-- - Selenium (`pip install selenium`) -->
+
 - BeautifulSoup (`pip install beautifulsoup4`)
 - psycopg2 (`pip install psycopg2`)
 - python-dotenv (`pip install python-dotenv`)

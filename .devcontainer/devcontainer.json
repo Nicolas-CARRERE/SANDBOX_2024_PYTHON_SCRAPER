@@ -1,0 +1,16 @@
+{
+  "name": "Pilota - Python Scraper",
+  "dockerFile": "../Dockerfile",
+  "customizations": {
+    "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-python.vscode-pylance",
+          "ms-azuretools.vscode-docker"
+        ]
+    }
+  },
+  "mounts": [
+    "source=${localEnv:HOME}/.wakatime.cfg,target=/home/vscode/.wakatime.cfg,type=bind,consistency=delegated"
+  ]
+}

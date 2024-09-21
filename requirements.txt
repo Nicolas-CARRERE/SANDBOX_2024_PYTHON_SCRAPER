@@ -3,3 +3,7 @@ asyncio
 aiohttp
 bs4
 fake_headers
+requests
+python-dotenv
+urllib3
+psycopg2

@@ -7,15 +7,6 @@ import random
 import asyncio
 from bs4 import BeautifulSoup as bs4
 import requests
-from dotenv import load_dotenv
-from resources.conf import Conf
-
-import os
-import time
-import random
-import asyncio
-from bs4 import BeautifulSoup as bs4
-import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 from dotenv import load_dotenv
@@ -170,9 +161,20 @@ class ScrapResults:
         cursor.execute(command)
         db_conn.commit()
 
-    # This function record_exists is used to check if the record exists in the database
+    # This function get id from an entity according to the label
     @staticmethod
-    def record_exists(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment):
+    def get_id(db_conn, table, column, value):
+        cursor = db_conn.cursor()
+        query = f"""
+            SELECT id FROM {table}
+            WHERE {column} = %s
+        """
+        cursor.execute(query, (value,))
+        return cursor.fetchone()[0]
+
+    # This function complete_record_exists is used to check if the record exists in the database
+    @staticmethod
+    def complete_record_exists(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment):
         cursor = db_conn.cursor()
         query = """
             SELECT EXISTS(
@@ -198,22 +200,10 @@ class ScrapResults:
         cursor.execute(query, (subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment))
         return cursor.fetchone()[0]
     
-    # This function get id from an entity according to the label
+    # This function partial_record_exists is used to check if the record exists in the database
     @staticmethod
-    def get_id(db_conn, table, column, value):
+    def partial_record_exists(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2):
         cursor = db_conn.cursor()
-        query = f"""
-            SELECT id FROM {table}
-            WHERE {column} = %s
-        """
-        cursor.execute(query, (value,))
-        return cursor.fetchone()[0]
-
-    # This function parse_html is used to parse the html and save the results to the database
-    @staticmethod
-    def save_into_db(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at):
-        cursor = db_conn.cursor()
-        # Check if the record exists
         check_query = """
             SELECT 1 FROM data
             WHERE subdomain_id = %s
@@ -232,9 +222,15 @@ class ScrapResults:
             AND playerB2 = %s
         """
         cursor.execute(check_query, (subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2))
-        exists = cursor.fetchone()
+        return cursor.fetchone() is not None
 
-        if exists:
+    # This function parse_html is used to parse the html and save the results to the database
+    @staticmethod
+    def save_into_db(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment, created_at, updated_at):
+        partial_record_exists = ScrapResults.partial_record_exists(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2)
+        cursor = db_conn.cursor()
+
+        if partial_record_exists:
             # If record exists, update it
             update_query = """
                 UPDATE data
