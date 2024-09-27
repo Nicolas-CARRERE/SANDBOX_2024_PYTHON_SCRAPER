@@ -199,7 +199,7 @@ class ScrapResults:
         """
         cursor.execute(query, (subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2, score, comment))
         return cursor.fetchone()[0]
-    
+
     # This function partial_record_exists is used to check if the record exists in the database
     @staticmethod
     def partial_record_exists(db_conn, subdomain_id, championship_id, speciality_id, category_id, scraped_url, title, date, game, team1, playerA1, playerB1, team2, playerA2, playerB2):

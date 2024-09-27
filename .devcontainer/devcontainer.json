@@ -12,5 +12,6 @@
   },
   "mounts": [
     "source=${localEnv:HOME}/.wakatime.cfg,target=/home/vscode/.wakatime.cfg,type=bind,consistency=delegated"
-  ]
+  ],
+  "forwardPorts": [8000]
 }
