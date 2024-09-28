@@ -9,6 +9,10 @@ RUN apt update && \
 # Upgrade pip, setuptools, and wheel
 RUN pip install --upgrade pip setuptools wheel
 
+# Create a virtual environment
+RUN python -m venv /opt/venv
+RUN source /opt/venv/bin/activate
+
 # Install production dependencies
 COPY ./requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt && \
