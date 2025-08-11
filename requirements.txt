@@ -1,9 +1,10 @@
-pytz
-asyncio
+dotenv
 aiohttp
-bs4
+asyncio
+beautifulsoup4
 fake_headers
-requests
-python-dotenv
-urllib3
 psycopg2
+python-dotenv
+pytz
+requests
+urllib3
